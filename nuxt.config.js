@@ -51,6 +51,8 @@ export default {
         '@/assets/css/bootstrap.min.css',
         '@/assets/css/style.css',
         '@/assets/css/main.css',
+        '@/assets/css/theme-sugar.css',
+        '@/assets/css/quill.snow.css',
     ],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

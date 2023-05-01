@@ -504,4 +504,17 @@ export default {
     name: 'IndexPage',
 }
 </script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.hero-items.owl-carousel {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+
+    img {
+        display: inline-block;
+    }
+}
+</style>

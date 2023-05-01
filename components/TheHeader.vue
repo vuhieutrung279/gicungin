@@ -13,7 +13,7 @@
                     <div class="text-right col-md-9">
                         <div class="row nav-right ml-0 mr-0">
                             <div class="col-sm-7 advanced-search px-0">
-                                <div class="input-group">
+                                <!-- <div class="input-group">
                                     <input
                                         type="text"
                                         placeholder="Tìm sản phẩm mong muốn"
@@ -21,7 +21,7 @@
                                     <button type="button">
                                         <i class="ti-search"></i>Tìm kiếm
                                     </button>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="col-sm-auto text-left ml-auto mr-3">
                                 <div>
@@ -944,85 +944,7 @@
                                         >
                                             <a
                                                 href="/in-tem-nhan/giao-hang-khac"
-                                                >giao hàng khác</a
-                                            >
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul>
-                                        <li>
-                                            <h5>Catalogue</h5>
-                                        </li>
-                                        <li
-                                            class="product-menu-item"
-                                            data-image="upload/product/[be502738-ed19-4cb0-8de6-43d3b6af8151]z4275039269812_d375a0d23a6ebf325cf01de91a7aff9a.jpg"
-                                        >
-                                            <a href="/in-tem-nhan/in-catalogue"
-                                                >In Catalogue tiêu chuẩn</a
-                                            >
-                                        </li>
-                                        <li
-                                            class="product-menu-item"
-                                            data-image="upload/product/[1828d332-2e33-4590-a290-eba9cc3b8ee1]z4101853628240_b88402570b40c0cea98e8d9e6966e241.jpg"
-                                        >
-                                            <a
-                                                href="/in-tem-nhan/catalogue-dong-ghim-cao-cap"
-                                                >Catalogue đóng ghim cao cấp</a
-                                            >
-                                        </li>
-                                        <li
-                                            class="product-menu-item"
-                                            data-image="upload/product/[4eae3066-4cf2-4b00-bd37-b6bba32feef0]z3627535066215_ede526b51d33975ac3233b04bbd6c51f.jpg"
-                                        >
-                                            <a
-                                                href="/in-tem-nhan/catalogue-lo-xo"
-                                                >Catalogue lò xo</a
-                                            >
-                                        </li>
-                                        <li
-                                            class="product-menu-item"
-                                            data-image="upload/product/[13762817-1008-47a1-aaeb-843f57ceae23]z4101853831401_536228cb2a675765e1630e0b0c0b39fe.jpg"
-                                        >
-                                            <a
-                                                href="/in-tem-nhan/catalogue-gia-re-offset"
-                                                >Catalogue giá rẻ ( offset số
-                                                lượng nhiều)</a
-                                            >
-                                        </li>
-                                        <li
-                                            class="product-menu-item"
-                                            data-image="upload/product/[ed0c48c3-54af-4ecb-bf52-637ffea8f36d]z3930209971500_815be9b3696db31b900c21df04b98388.jpg"
-                                        >
-                                            <a
-                                                href="/in-tem-nhan/catalogue-giay-nhua"
-                                                >Catalogue giấy nhựa</a
-                                            >
-                                        </li>
-                                        <li
-                                            class="product-menu-item"
-                                            data-image="upload/product/[13a091c0-8c92-491d-9c08-f810f244a916]z3930209943800_1d9f9ccac600cb6667ca6d236355fb1d.jpg"
-                                        >
-                                            <a
-                                                href="/in-tem-nhan/Catalogue-nhua"
-                                                >Catalogue nhựa</a
-                                            >
-                                        </li>
-                                        <li
-                                            class="product-menu-item"
-                                            data-image="upload/product/[4d69d6ae-dafb-4860-a411-b6ccaf400a8e]z3627535066215_ede526b51d33975ac3233b04bbd6c51f.jpg"
-                                        >
-                                            <a
-                                                href="/in-tem-nhan/menu-giay-nhua"
-                                                >Menu giấy nhựa</a
-                                            >
-                                        </li>
-                                        <li
-                                            class="product-menu-item"
-                                            data-image="upload/product/[049fd967-010d-45f8-aba0-a48916605e63]menu nhua.jpg"
-                                        >
-                                            <a href="/in-tem-nhan/menu-nhua"
-                                                >Menu nhựa</a
+                                                >Giao hàng khác</a
                                             >
                                         </li>
                                     </ul>
