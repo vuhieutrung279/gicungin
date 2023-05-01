@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/in-bat-xam-2-da", {data:[{}],fetch:{},mutations:void 0});

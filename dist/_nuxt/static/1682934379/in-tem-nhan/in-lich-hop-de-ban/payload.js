@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/in-lich-hop-de-ban", {data:[{}],fetch:{},mutations:void 0});

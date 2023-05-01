@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/thiet-ke-name-card", {data:[{}],fetch:{},mutations:void 0});

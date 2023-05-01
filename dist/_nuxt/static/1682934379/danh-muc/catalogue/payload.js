@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/danh-muc/catalogue", {data:[{}],fetch:{},mutations:void 0});

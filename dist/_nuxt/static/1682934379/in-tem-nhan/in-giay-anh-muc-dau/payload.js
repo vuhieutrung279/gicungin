@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/in-giay-anh-muc-dau", {data:[{}],fetch:{},mutations:void 0});

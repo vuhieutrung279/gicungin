@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/Catalogue-nhua", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/in-bat-khong-gan", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/tem-hologram", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/standee-cuon-nhom-cao-cap-de-to", {data:[{}],fetch:{},mutations:void 0});

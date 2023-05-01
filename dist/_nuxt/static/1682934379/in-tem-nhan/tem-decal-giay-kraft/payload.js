@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/tem-decal-giay-kraft", {data:[{}],fetch:{},mutations:void 0});

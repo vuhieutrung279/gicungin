@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/catalogue-dong-ghim-cao-cap", {data:[{}],fetch:{},mutations:void 0});

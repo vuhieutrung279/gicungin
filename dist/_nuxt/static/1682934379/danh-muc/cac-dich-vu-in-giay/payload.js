@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/danh-muc/cac-dich-vu-in-giay", {data:[{}],fetch:{},mutations:void 0});

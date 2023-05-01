@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/standee-x-tang-dua-da-nang", {data:[{}],fetch:{},mutations:void 0});

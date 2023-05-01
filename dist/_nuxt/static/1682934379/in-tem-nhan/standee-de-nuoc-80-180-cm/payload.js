@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/standee-de-nuoc-80-180-cm", {data:[{}],fetch:{},mutations:void 0});

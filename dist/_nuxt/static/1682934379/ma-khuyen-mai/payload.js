@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ma-khuyen-mai", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cong-ty/giao-hang-va-van-chuyen", {data:[{}],fetch:{},mutations:void 0});

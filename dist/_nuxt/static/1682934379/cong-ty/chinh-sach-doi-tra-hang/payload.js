@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cong-ty/chinh-sach-doi-tra-hang", {data:[{}],fetch:{},mutations:void 0});

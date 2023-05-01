@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/cat-mica", {data:[{}],fetch:{},mutations:void 0});

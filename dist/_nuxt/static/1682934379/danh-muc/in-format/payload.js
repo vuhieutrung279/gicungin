@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/danh-muc/in-format", {data:[{}],fetch:{},mutations:void 0});

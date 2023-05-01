@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/booth-sat-quang-cao", {data:[{}],fetch:{},mutations:void 0});

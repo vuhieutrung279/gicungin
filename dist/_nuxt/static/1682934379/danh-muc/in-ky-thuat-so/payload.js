@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/danh-muc/in-ky-thuat-so", {data:[{}],fetch:{},mutations:void 0});

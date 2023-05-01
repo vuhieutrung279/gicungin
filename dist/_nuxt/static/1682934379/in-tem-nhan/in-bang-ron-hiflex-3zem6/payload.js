@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/in-bang-ron-hiflex-3zem6", {data:[{}],fetch:{},mutations:void 0});

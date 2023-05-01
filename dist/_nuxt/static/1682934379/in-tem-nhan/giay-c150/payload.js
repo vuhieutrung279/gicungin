@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/giay-c150", {data:[{}],fetch:{},mutations:void 0});

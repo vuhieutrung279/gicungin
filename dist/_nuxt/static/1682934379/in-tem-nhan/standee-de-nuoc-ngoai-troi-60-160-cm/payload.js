@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/in-tem-nhan/standee-de-nuoc-ngoai-troi-60-160-cm", {data:[{}],fetch:{},mutations:void 0});
