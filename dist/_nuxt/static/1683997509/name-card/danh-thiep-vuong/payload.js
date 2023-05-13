@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/name-card/danh-thiep-vuong", {data:[{}],fetch:{},mutations:[]});

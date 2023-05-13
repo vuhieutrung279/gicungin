@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/flyer/catologue-in-offset", {data:[{}],fetch:{},mutations:[]});

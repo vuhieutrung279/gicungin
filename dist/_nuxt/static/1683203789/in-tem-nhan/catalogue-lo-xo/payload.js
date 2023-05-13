@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/in-tem-nhan/catalogue-lo-xo", {data:[{}],fetch:{},mutations:void 0});

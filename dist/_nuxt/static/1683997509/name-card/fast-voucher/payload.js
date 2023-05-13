@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/name-card/fast-voucher", {data:[{}],fetch:{},mutations:[]});

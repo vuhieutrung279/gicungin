@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/danh-muc/in-nhanh", {data:[{}],fetch:{},mutations:void 0});

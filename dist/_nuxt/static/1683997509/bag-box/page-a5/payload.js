@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bag-box/page-a5", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/name-card/fast-lich-theo-tuong", {data:[{}],fetch:{},mutations:[]});

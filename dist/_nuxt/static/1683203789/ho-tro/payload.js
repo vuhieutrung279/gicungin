@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/ho-tro", {data:[{}],fetch:{},mutations:void 0});

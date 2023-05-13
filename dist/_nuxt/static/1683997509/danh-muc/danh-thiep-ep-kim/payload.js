@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/danh-muc/danh-thiep-ep-kim", {data:[{}],fetch:{},mutations:[]});

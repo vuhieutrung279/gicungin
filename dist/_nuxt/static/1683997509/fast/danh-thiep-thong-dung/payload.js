@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fast/danh-thiep-thong-dung", {data:[{}],fetch:{},mutations:[]});

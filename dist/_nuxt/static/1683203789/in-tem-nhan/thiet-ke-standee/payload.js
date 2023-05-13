@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/in-tem-nhan/thiet-ke-standee", {data:[{}],fetch:{},mutations:void 0});

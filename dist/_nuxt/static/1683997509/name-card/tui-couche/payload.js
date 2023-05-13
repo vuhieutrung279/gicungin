@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/name-card/tui-couche", {data:[{}],fetch:{},mutations:[]});

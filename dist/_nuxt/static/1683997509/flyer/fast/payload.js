@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/flyer/fast", {data:[{}],fetch:{},mutations:[]});

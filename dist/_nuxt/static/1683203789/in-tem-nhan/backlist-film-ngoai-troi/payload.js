@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/in-tem-nhan/backlist-film-ngoai-troi", {data:[{}],fetch:{},mutations:void 0});

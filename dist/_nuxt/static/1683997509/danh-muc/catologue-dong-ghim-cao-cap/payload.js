@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/danh-muc/catologue-dong-ghim-cao-cap", {data:[{}],fetch:{},mutations:[]});

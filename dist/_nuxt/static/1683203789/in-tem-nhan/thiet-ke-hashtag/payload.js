@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/in-tem-nhan/thiet-ke-hashtag", {data:[{}],fetch:{},mutations:void 0});

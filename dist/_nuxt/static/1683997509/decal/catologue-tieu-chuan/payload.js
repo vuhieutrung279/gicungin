@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decal/catologue-tieu-chuan", {data:[{}],fetch:{},mutations:[]});

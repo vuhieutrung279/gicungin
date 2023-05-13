@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fast/decal-xi-vang", {data:[{}],fetch:{},mutations:[]});

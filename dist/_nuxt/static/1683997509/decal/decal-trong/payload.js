@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decal/decal-trong", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/in-tem-nhan/in-decal-uv-utf", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/danh-muc/tui-couche", {data:[{}],fetch:{},mutations:[]});

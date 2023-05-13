@@ -1,6 +1,99 @@
 <template>
     <footer class="footer-section">
         <div class="container">
+            <div class="brand mt-3 f-bottom-line">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>ĐỐI TÁC</h4>
+                    </div>
+                </div>
+
+                <div class="row mt-3 mb-3">
+                    <div class="col-md-12 flex">
+                        <div class="parter-logo">
+                            <img src="~/assets/fonts/dhs-logo-xanh-01.svg" />
+                        </div>
+                        <div class="parter-logo">
+                            <img src="~/assets/images/memoryzone-logo2.png" />
+                        </div>
+                        <div class="parter-logo">
+                            <img src="~/assets/images/logo-adv-271x61-01.png" />
+                        </div>
+                        <div class="parter-logo">
+                            <img src="~/assets/images/logo-sbc.png" />
+                        </div>
+                        <div class="parter-logo">
+                            <img src="~/assets/images/zodiac-logo.jpg" />
+                        </div>
+                        <div class="parter-logo">
+                            <img src="~/assets/images/DGG-logo.png" />
+                        </div>
+                        <div class="parter-logo">
+                            <img src="~/assets/images/logo-nhatviet.png" />
+                        </div>
+                        <div class="parter-logo">
+                            <img src="~/assets/images/logo-ho-viet-ads.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brand f-bottom-line mt-4">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4>THƯƠNG HIỆU THÀNH VIÊN</h4>
+                    </div>
+
+                    <div class="col-md-7 flex">
+                        <h4>PHƯƠNG THỨC THANH TOÁN LINH HOẠT</h4>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-5 flex">
+                        <div class="payment-icon">
+                            <img src="~/assets/fonts/LOGO-PDCA-01.svg" />
+                        </div>
+                        <div class="payment-icon">
+                            <img
+                                src="~/assets/fonts/LOGO-THE-GIOI-MAY-IN-NHANH.svg"
+                            />
+                        </div>
+                        <div class="payment-icon">
+                            <img
+                                src="~/assets/fonts/LOGO-THE-GIOI-STICKER.svg"
+                            />
+                        </div>
+                        <div class="payment-icon">
+                            <img src="~/assets/images/logo.png" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 flex">
+                        <div class="payment-icon">
+                            <img src="~/assets/images/thanh-toan-online2.png" />
+                        </div>
+                        <div class="payment-icon">
+                            <img src="~/assets/images/Vietcombank2.png" />
+                        </div>
+                        <div class="payment-icon">
+                            <img src="~/assets/images/ACB.png" />
+                        </div>
+                        <div class="payment-icon">
+                            <img src="~/assets/images/MoMo_Logo.png" />
+                        </div>
+                        <div class="payment-icon">
+                            <img src="~/assets/images/zalopay.png" />
+                        </div>
+                        <div class="payment-icon">
+                            <img src="~/assets/images/viettelpay2.png" />
+                        </div>
+                        <div class="payment-icon">
+                            <img src="~/assets/images/vnpay.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row mb-4">
                 <div class="col-sm-12 col-lg-6 col-xl-5">
                     <div class="w-100 contact">
@@ -9,7 +102,7 @@
                         <div class="row mt-2">
                             <div class="col-sm-4">
                                 <h5 class="f-title">
-                                    <strong>0909.371.586</strong>
+                                    <strong>09888.56.441</strong>
                                 </h5>
                                 <div class="mt-2">
                                     <div class="w-100 social-media flex">
@@ -18,8 +111,8 @@
                                             src="~/assets/images/icon-zalo.png"
                                         />
                                         <div class="mt-1 ml-2">
-                                            <p>NVKD Công Thiện</p>
-                                            <p>090 139 1815</p>
+                                            <p>NVKD Thành Duy</p>
+                                            <p>09888 56 441</p>
                                         </div>
                                     </div>
                                 </div>
@@ -30,16 +123,14 @@
                                             src="~/assets/images/icon-zalo.png"
                                         />
                                         <div class="mt-1 ml-2">
-                                            <p>NVKD Thu Phương</p>
-                                            <p>0923 791 586</p>
+                                            <p>NVKD Thành Duy</p>
+                                            <p>09888 56 441</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <h5 class="mt-1">
-                                    thegioiinan.today@gmail.com
-                                </h5>
+                                <h5 class="mt-1">gicungin@gmail.com</h5>
                                 <div class="mt-2">
                                     <div class="w-100 social-media flex">
                                         <img
@@ -47,8 +138,8 @@
                                             src="~/assets/images/icon-zalo.png"
                                         />
                                         <div class="mt-1 ml-2">
-                                            <p>NVKD Huyền Trang</p>
-                                            <p>0902 697 586</p>
+                                            <p>NVKD Thành Duy</p>
+                                            <p>09888 56 441</p>
                                         </div>
                                     </div>
                                 </div>
@@ -59,8 +150,8 @@
                                             src="~/assets/images/icon-zalo.png"
                                         />
                                         <div class="mt-1 ml-2">
-                                            <p>NVKD Văn Hoàng</p>
-                                            <p>0909 235 697</p>
+                                            <p>NVKD Thành Duy</p>
+                                            <p>09888 56 441</p>
                                         </div>
                                     </div>
                                 </div>
@@ -74,8 +165,8 @@
                                             src="~/assets/images/icon-zalo.png"
                                         />
                                         <div class="mt-1 ml-2">
-                                            <p>NVKD Minh Tiến</p>
-                                            <p>091 346 1539</p>
+                                            <p>NVKD Thành Duy</p>
+                                            <p>09888 56 441</p>
                                         </div>
                                     </div>
                                 </div>
@@ -86,15 +177,15 @@
                                             src="~/assets/images/icon-zalo.png"
                                         />
                                         <div class="mt-1 ml-2">
-                                            <p>NVTK Văn Nam</p>
-                                            <p>087 901 1989</p>
+                                            <p>NVKD Thành Duy</p>
+                                            <p>09888 56 441</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="mt-3 mb-4">
-                            <p>CÔNG TY TNHH MTV THẾ GIỚI STICKER</p>
+                            <p>CÔNG TY TNHH MTV GÌ CŨNG IN</p>
                             <p>
                                 GPKD số 0316890951 do Sở KH và ĐT TP. Hồ Chí
                                 Minh Cấp ngày 03/06/2021
@@ -108,19 +199,15 @@
                             <li class="mb-4">
                                 <span class="title">ĐỊA CHỈ</span>
                                 <p>
-                                    CN1: 155 Thống Nhất, Phường Tân Thành, Quận
-                                    Tân Phú, Tp.HCM
-                                </p>
-                                <p>
-                                    CN2: 119/45 Nguyễn Hồng Đào, Phường 14, Quận
-                                    Tân Bình, Tp.HCM
+                                    CN: 77 Nguyễn Tử Nha, Phường 12, Quận Tân
+                                    Bình, TP.HCM
                                 </p>
                             </li>
                             <li class="mb-4">
                                 <span class="title">THỜI GIAN HOẠT ĐỘNG</span>
-                                <p>Từ Thứ 2 Thứ 7 (Chủ nhật nghỉ)</p>
-                                <p>Sáng: 7g30 11g30</p>
-                                <p>Chiều: 13g00 17g00</p>
+                                <p>Từ Thứ 2-Thứ 7 (Chủ nhật nghỉ)</p>
+                                <p>Sáng: 7g30-12g30</p>
+                                <p>Chiều: 13g00-18g00</p>
                             </li>
                         </ul>
                     </div>
@@ -130,28 +217,28 @@
                         <ul>
                             <li class="mb-3">
                                 <span class="title">HƯỚNG DẪN</span>
-                                <a href="/cong-ty/huong-dan-dat-hang-online">
+                                <a href="#">
                                     <p>Hướng dẫn đặt hàng online</p>
                                 </a>
-                                <a href="/cong-ty/giao-hang-va-van-chuyen">
+                                <a href="#">
                                     <p>Giao hàng và vận chuyển</p>
                                 </a>
-                                <a href="/cong-ty/hinh-thuc-thanh-toan">
+                                <a href="#">
                                     <p>Hình thức thanh toán</p>
                                 </a>
                             </li>
                             <li class="mb-3">
                                 <span class="title">CHÍNH SÁCH</span>
-                                <a href="/cong-ty/chinh-sach-bao-hanh">
+                                <a href="#">
                                     <p>Chính sách bảo hành</p>
                                 </a>
-                                <a href="/cong-ty/thoa-thuan-su-dung">
+                                <a href="#">
                                     <p>Thỏa thuận sử dụng</p>
                                 </a>
-                                <a href="/cong-ty/chinh-sach-doi-tra-hang">
+                                <a href="#">
                                     <p>Chính sách đổi trả hàng</p>
                                 </a>
-                                <a href="/cong-ty/chinh-sach-bao-mat">
+                                <a href="#">
                                     <p>Chính sách bảo mật</p>
                                 </a>
                             </li>
@@ -161,7 +248,7 @@
                 <div class="col-xl-2 col-lg-12">
                     <div class="pl-xl-3 mb-3">
                         <span class="title">KÊNH ONLINE</span>
-                        <p>Thế giới tem nhãn Sticker</p>
+                        <p>Gì cũng in</p>
                         <div class="w-100 social-media">
                             <a href="#" class="fa fa-facebook"></a>
                             <a class="fa fa-youtube-play"></a>
@@ -181,11 +268,8 @@
                     </div>
                     <div class="pl-xl-3">
                         <span class="title">ĐẶT HÀNG TRỰC TUYẾN TẠI:</span>
-                        <a href="https://thegioisticker.com/">
-                            <p>thegioisticker.com</p>
-                        </a>
-                        <a href="https://congtystandee.com/">
-                            <p>congtystandee.com</p>
+                        <a href="https://gicungin.com/">
+                            <p>gicungin.com</p>
                         </a>
                     </div>
                 </div>

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/in-tem-nhan/in-pp-ngoai-troi", {data:[{}],fetch:{},mutations:void 0});

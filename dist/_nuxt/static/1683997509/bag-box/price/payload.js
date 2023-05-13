@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bag-box/price", {data:[{}],fetch:{},mutations:[]});

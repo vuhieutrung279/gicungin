@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/danh-muc/page-a4", {data:[{}],fetch:{},mutations:[]});

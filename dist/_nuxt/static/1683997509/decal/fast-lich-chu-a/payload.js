@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decal/fast-lich-chu-a", {data:[{}],fetch:{},mutations:[]});

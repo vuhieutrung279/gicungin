@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/in-tem-nhan/fort170", {data:[{}],fetch:{},mutations:void 0});

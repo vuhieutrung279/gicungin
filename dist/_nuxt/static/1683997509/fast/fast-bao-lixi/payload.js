@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fast/fast-bao-lixi", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/cong-ty/thoa-thuan-su-dung", {data:[{}],fetch:{},mutations:void 0});

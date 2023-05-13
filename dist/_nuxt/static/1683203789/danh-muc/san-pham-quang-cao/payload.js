@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/danh-muc/san-pham-quang-cao", {data:[{}],fetch:{},mutations:void 0});

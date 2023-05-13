@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/danh-muc/catologue-giay-nhua", {data:[{}],fetch:{},mutations:[]});

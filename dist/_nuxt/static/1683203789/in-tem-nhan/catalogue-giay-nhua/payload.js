@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/in-tem-nhan/catalogue-giay-nhua", {data:[{}],fetch:{},mutations:void 0});

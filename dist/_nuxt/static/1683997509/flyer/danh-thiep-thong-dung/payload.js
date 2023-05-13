@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/flyer/danh-thiep-thong-dung", {data:[{}],fetch:{},mutations:[]});

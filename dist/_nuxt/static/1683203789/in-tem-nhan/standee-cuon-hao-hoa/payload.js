@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/in-tem-nhan/standee-cuon-hao-hoa", {data:[{}],fetch:{},mutations:void 0});

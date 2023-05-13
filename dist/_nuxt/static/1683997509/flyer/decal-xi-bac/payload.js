@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/flyer/decal-xi-bac", {data:[{}],fetch:{},mutations:[]});

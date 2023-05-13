@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/catologue/catologue-menu-nhua", {data:[{}],fetch:{},mutations:[]});

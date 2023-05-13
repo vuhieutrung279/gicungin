@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/in-tem-nhan/format-3mm", {data:[{}],fetch:{},mutations:void 0});

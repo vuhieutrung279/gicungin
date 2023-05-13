@@ -1061,7 +1061,9 @@ hr.dashed {
     border: 1px solid #adaeb1;
     top: 40px;
     display: inline-flex;
-    padding-bottom: 15px
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    max-width: 95vw;
 }
 
 .header-section .nav-item .nav-menu li .dropdown li a {

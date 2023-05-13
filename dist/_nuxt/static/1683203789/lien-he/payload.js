@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/lien-he", {data:[{}],fetch:{},mutations:void 0});

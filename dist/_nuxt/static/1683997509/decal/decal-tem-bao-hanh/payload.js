@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decal/decal-tem-bao-hanh", {data:[{}],fetch:{},mutations:[]});

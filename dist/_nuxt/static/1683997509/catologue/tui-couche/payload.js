@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/catologue/tui-couche", {data:[{}],fetch:{},mutations:[]});

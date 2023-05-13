@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/in-tem-nhan/decal-sua-uv", {data:[{}],fetch:{},mutations:void 0});

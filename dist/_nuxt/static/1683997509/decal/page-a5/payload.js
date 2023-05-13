@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/decal/page-a5", {data:[{}],fetch:{},mutations:[]});

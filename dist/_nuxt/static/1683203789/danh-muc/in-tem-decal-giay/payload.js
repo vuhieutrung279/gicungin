@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/danh-muc/in-tem-decal-giay", {data:[{}],fetch:{},mutations:void 0});
