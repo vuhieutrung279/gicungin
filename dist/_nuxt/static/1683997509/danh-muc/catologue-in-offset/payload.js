@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/danh-muc/catologue-in-offset", {data:[{}],fetch:{},mutations:[]});

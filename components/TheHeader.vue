@@ -72,10 +72,9 @@
                                             :key="sub + i"
                                             class="product-menu-item"
                                         >
-                                            <!-- <NuxtLink
-                                                :to="`${item.url}/${sub.url}`"
-                                                >{{ sub.title }}</NuxtLink
-                                            > -->
+                                            <NuxtLink :to="`${item.url}`">{{
+                                                sub.title
+                                            }}</NuxtLink>
                                         </li>
                                     </ul>
                                 </div>

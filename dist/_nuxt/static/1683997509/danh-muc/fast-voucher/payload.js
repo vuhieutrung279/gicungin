@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/danh-muc/fast-voucher", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/danh-muc/decal-amazon", {data:[{}],fetch:{},mutations:[]});

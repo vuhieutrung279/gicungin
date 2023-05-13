@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/danh-muc/price", {data:[{}],fetch:{},mutations:[]});

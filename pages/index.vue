@@ -46,20 +46,6 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3">
-                        <a
-                            href="/danh-muc/cac-dich-vu-in-giay"
-                            class="single-banner"
-                        >
-                            <img
-                                src="~/assets/images/0f3baf4c-880e-4eb2-900b-58501d9b8a4bz3462175161143_a2e48040c2b110bdf97fd93812663a0d.jpg"
-                                alt="Giấy"
-                            />
-                            <div class="inner-text">
-                                <h5 class="f-category">Giấy</h5>
-                            </div>
-                        </a>
-                    </div>
                 </div>
             </div>
 

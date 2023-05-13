@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/danh-muc/fast-tag-treo", {data:[{}],fetch:{},mutations:[]});
