@@ -8,62 +8,48 @@
                             <div class="product-pic-zoom">
                                 <img
                                     class="product-big-img"
-                                    src="https://api.thegioisticker.com/upload/product/[0cdd0213-8cc4-4cba-9e96-30dadba37ca5]1.jpg"
-                                    alt
+                                    :src="
+                                        require(`~/assets/images/category/${subCategory.image}`)
+                                    "
                                 />
                             </div>
                             <div class="product-thumbs">
                                 <div
                                     class="product-thumbs-track d-flex flex-lg-row"
                                 >
-                                    <div
-                                        class="pt"
-                                        data-imgbigurl="https://api.thegioisticker.com/upload/product/[0cdd0213-8cc4-4cba-9e96-30dadba37ca5]1.jpg"
-                                        style="width: 90px"
-                                    >
+                                    <div class="pt" style="width: 90px">
                                         <img
-                                            src="https://api.thegioisticker.com/upload/product/[0cdd0213-8cc4-4cba-9e96-30dadba37ca5]1.jpg"
-                                            alt
+                                            :src="
+                                                require(`~/assets/images/category/${subCategory.image}`)
+                                            "
                                         />
                                     </div>
-                                    <div
-                                        class="pt"
-                                        data-imgbigurl="https://api.thegioisticker.com/upload/product/[0cdd0213-8cc4-4cba-9e96-30dadba37ca5]1.jpg"
-                                        style="width: 90px"
-                                    >
+                                    <div class="pt" style="width: 90px">
                                         <img
-                                            src="https://api.thegioisticker.com/upload/product/[0cdd0213-8cc4-4cba-9e96-30dadba37ca5]1.jpg"
-                                            alt
+                                            :src="
+                                                require(`~/assets/images/category/${subCategory.image}`)
+                                            "
                                         />
                                     </div>
-                                    <div
-                                        class="pt"
-                                        data-imgbigurl="https://api.thegioisticker.com/upload/product/[0cdd0213-8cc4-4cba-9e96-30dadba37ca5]1.jpg"
-                                        style="width: 90px"
-                                    >
+                                    <div class="pt" style="width: 90px">
                                         <img
-                                            src="https://api.thegioisticker.com/upload/product/[0cdd0213-8cc4-4cba-9e96-30dadba37ca5]1.jpg"
-                                            alt
+                                            :src="
+                                                require(`~/assets/images/category/${subCategory.image}`)
+                                            "
                                         />
                                     </div>
-                                    <div
-                                        class="pt"
-                                        data-imgbigurl="https://api.thegioisticker.com/upload/product/[0cdd0213-8cc4-4cba-9e96-30dadba37ca5]1.jpg"
-                                        style="width: 90px"
-                                    >
+                                    <div class="pt" style="width: 90px">
                                         <img
-                                            src="https://api.thegioisticker.com/upload/product/[0cdd0213-8cc4-4cba-9e96-30dadba37ca5]1.jpg"
-                                            alt
+                                            :src="
+                                                require(`~/assets/images/category/${subCategory.image}`)
+                                            "
                                         />
                                     </div>
-                                    <div
-                                        class="pt"
-                                        data-imgbigurl="https://api.thegioisticker.com/upload/product/[0cdd0213-8cc4-4cba-9e96-30dadba37ca5]1.jpg"
-                                        style="width: 90px"
-                                    >
+                                    <div class="pt" style="width: 90px">
                                         <img
-                                            src="https://api.thegioisticker.com/upload/product/[0cdd0213-8cc4-4cba-9e96-30dadba37ca5]1.jpg"
-                                            alt
+                                            :src="
+                                                require(`~/assets/images/category/${subCategory.image}`)
+                                            "
                                         />
                                     </div>
                                 </div>
@@ -72,7 +58,7 @@
                         <div class="col-lg-7">
                             <div class="product-details">
                                 <div class="pd-title">
-                                    <h3>Tem decal sữa - Đổi chất liệu</h3>
+                                    <h3>{{ subCategory.title }}</h3>
                                 </div>
                                 <div
                                     style="border-bottom: solid 1px #e8e8e8"
@@ -89,13 +75,20 @@
                                     style="border-bottom: solid 1px #e8e8e8"
                                     class="mb-2 pb-1"
                                 >
-                                    <p class="multi-line">
-                                        - Màu sắc: 4 màu cơ bản CMYK - Số mặt
-                                        in: 1 mặt và mặt còn lại là keo dán -
-                                        Chất liêu in: Decal Nhựa Sữa mặt mờ
-                                        SY19DL - Kỹ thuật in: In KTS - Máy in
-                                        Lazer Konica. - Gia công: Cắt bế demi
-                                        theo yêu cầu chỉ cần lột ra và dán.
+                                    <p>- Màu sắc: 4 màu cơ bản CMYK</p>
+                                    <p>
+                                        - Số mặt in: 1 mặt và mặt còn lại là keo
+                                        dán
+                                    </p>
+                                    <p>
+                                        - Chất liêu in: Decal Nhựa Sữa mặt mờ
+                                        SY19DL
+                                    </p>
+                                    <p>- Kỹ thuật in: In KTS</p>
+                                    <p>- Máy in Lazer Konica.</p>
+                                    <p>
+                                        - Gia công: Cắt bế demi theo yêu cầu chỉ
+                                        cần lột ra và dán.
                                     </p>
                                 </div>
 
@@ -493,20 +486,21 @@
                                                     color: rgb(102, 163, 224);
                                                     font-size: 12px;
                                                 "
-                                                >Mr Công Thiện</span
+                                                >Mr Thành Duy</span
                                             >
                                         </p>
                                         <p>
                                             <span style="font-size: 12px"
-                                                >Zalo: 090 139 1815</span
+                                                >Zalo: 09888 56 441</span
                                             >
                                         </p>
                                         <p><br /></p>
+
                                         <p>
                                             <span
                                                 style="
+                                                    font-size: 14px;
                                                     color: rgb(102, 163, 224);
-                                                    font-size: 12px;
                                                 "
                                                 ><img
                                                     src="~/assets/images/87dadf6c-51db-4853-b0b5-24be33b5d1a6.png"
@@ -516,13 +510,20 @@
                                                         float: left;
                                                         margin: 0px 1em 1em 0px;
                                                     "
-                                                />
-                                                Ms Thu Phương</span
+                                            /></span>
+                                        </p>
+                                        <p>
+                                            <span
+                                                style="
+                                                    color: rgb(102, 163, 224);
+                                                    font-size: 12px;
+                                                "
+                                                >Mr Thành Duy</span
                                             >
                                         </p>
                                         <p>
                                             <span style="font-size: 12px"
-                                                >Zalo: 0923 791 586</span
+                                                >Zalo: 09888 56 441</span
                                             >
                                         </p>
                                         <p><br /></p>
@@ -581,8 +582,8 @@
                                         <h2>
                                             <span
                                                 style="
-                                                    font-size: 14px;
                                                     color: rgb(230, 0, 0);
+                                                    font-size: 14px;
                                                 "
                                                 >LIÊN HỆ NHÂN VIÊN CSKH</span
                                             >
@@ -591,8 +592,8 @@
                                         <p>
                                             <span
                                                 style="
-                                                    color: rgb(102, 163, 224);
                                                     font-size: 14px;
+                                                    color: rgb(102, 163, 224);
                                                 "
                                                 ><img
                                                     src="~/assets/images/87dadf6c-51db-4853-b0b5-24be33b5d1a6.png"
@@ -607,22 +608,22 @@
                                         <p>
                                             <span
                                                 style="
-                                                    font-size: 12px;
                                                     color: rgb(102, 163, 224);
+                                                    font-size: 12px;
                                                 "
-                                                >Mr Công Thiện</span
+                                                >Mr Thành Duy</span
                                             >
                                         </p>
                                         <p>
                                             <span style="font-size: 12px"
-                                                >Zalo: 090 139 1815</span
+                                                >Zalo: 09888 56 441</span
                                             >
                                         </p>
                                         <p><br /></p>
                                         <p>
                                             <span
                                                 style="
-                                                    font-size: 12px;
+                                                    font-size: 14px;
                                                     color: rgb(102, 163, 224);
                                                 "
                                                 ><img
@@ -633,13 +634,20 @@
                                                         float: left;
                                                         margin: 0px 1em 1em 0px;
                                                     "
-                                                />
-                                                Ms Thu Phương</span
+                                            /></span>
+                                        </p>
+                                        <p>
+                                            <span
+                                                style="
+                                                    color: rgb(102, 163, 224);
+                                                    font-size: 12px;
+                                                "
+                                                >Mr Thành Duy</span
                                             >
                                         </p>
                                         <p>
                                             <span style="font-size: 12px"
-                                                >Zalo: 0923 791 586</span
+                                                >Zalo: 09888 56 441</span
                                             >
                                         </p>
                                         <p><br /></p>
@@ -816,7 +824,28 @@
 </template>
 
 <script>
-export default {}
+export default {
+    data() {
+        return {
+            category: [],
+            subCategory: {},
+        }
+    },
+    computed: {
+        paramsId() {
+            return this.$route.params.category
+        },
+    },
+    created() {
+        this.category = this.$store.state.menu.find(
+            (item) => item.url === this.paramsId
+        )
+        this.subCategory = this.category.submenu.find(
+            (item) => item.url === this.$route.params.id
+        )
+    },
+    mounted() {},
+}
 </script>
 
 <style lang="scss" scoped></style>
