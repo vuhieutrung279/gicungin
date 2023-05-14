@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/flyer/decal-bay-mau", {data:[{}],fetch:{},mutations:[]});

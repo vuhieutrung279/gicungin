@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/bag-box/fast-lich-theo-tuong", {data:[{}],fetch:{},mutations:[]});

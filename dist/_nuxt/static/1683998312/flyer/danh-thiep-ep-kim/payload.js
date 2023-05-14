@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/flyer/danh-thiep-ep-kim", {data:[{}],fetch:{},mutations:[]});

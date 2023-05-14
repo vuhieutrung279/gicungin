@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/flyer/catologue-dong-ghim-cao-cap", {data:[{}],fetch:{},mutations:[]});

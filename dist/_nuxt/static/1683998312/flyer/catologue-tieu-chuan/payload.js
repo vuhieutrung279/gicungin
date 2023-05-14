@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/flyer/catologue-tieu-chuan", {data:[{}],fetch:{},mutations:[]});

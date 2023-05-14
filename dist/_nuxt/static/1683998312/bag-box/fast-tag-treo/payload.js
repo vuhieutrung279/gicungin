@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/bag-box/fast-tag-treo", {data:[{}],fetch:{},mutations:[]});

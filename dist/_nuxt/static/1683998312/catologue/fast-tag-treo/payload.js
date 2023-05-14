@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/catologue/fast-tag-treo", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/catologue/fast-folder", {data:[{}],fetch:{},mutations:[]});

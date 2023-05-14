@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/name-card/page-a5", {data:[{}],fetch:{},mutations:[]});

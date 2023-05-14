@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/flyer/tui-couche", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/flyer/tui-kraft-nau", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/bag-box/danh-thiep-thong-dung", {data:[{}],fetch:{},mutations:[]});

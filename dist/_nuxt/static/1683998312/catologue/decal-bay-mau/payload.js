@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/catologue/decal-bay-mau", {data:[{}],fetch:{},mutations:[]});

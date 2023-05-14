@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/decal/tui-kraft-nau", {data:[{}],fetch:{},mutations:[]});

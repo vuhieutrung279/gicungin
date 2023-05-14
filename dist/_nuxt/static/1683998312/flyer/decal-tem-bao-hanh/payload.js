@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/flyer/decal-tem-bao-hanh", {data:[{}],fetch:{},mutations:[]});

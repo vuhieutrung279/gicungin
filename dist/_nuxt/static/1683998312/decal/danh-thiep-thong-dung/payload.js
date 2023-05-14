@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/decal/danh-thiep-thong-dung", {data:[{}],fetch:{},mutations:[]});

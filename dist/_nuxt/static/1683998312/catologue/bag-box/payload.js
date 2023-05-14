@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/catologue/bag-box", {data:[{}],fetch:{},mutations:[]});

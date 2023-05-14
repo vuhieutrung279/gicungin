@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/decal/catologue-dong-ghim-cao-cap", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/fast/price", {data:[{}],fetch:{},mutations:[]});

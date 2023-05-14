@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/catologue/fast-bao-thu", {data:[{}],fetch:{},mutations:[]});

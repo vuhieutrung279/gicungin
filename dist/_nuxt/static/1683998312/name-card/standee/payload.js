@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/name-card/standee", {data:[{}],fetch:{},mutations:[]});

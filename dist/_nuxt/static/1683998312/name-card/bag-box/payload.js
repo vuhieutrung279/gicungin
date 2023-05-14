@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/name-card/bag-box", {data:[{}],fetch:{},mutations:[]});

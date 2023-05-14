@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/fast/tui-kraft-nau", {data:[{}],fetch:{},mutations:[]});

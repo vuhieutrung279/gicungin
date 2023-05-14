@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/fast/decal-amazon", {data:[{}],fetch:{},mutations:[]});

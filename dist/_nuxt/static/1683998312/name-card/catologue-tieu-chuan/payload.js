@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/name-card/catologue-tieu-chuan", {data:[{}],fetch:{},mutations:[]});

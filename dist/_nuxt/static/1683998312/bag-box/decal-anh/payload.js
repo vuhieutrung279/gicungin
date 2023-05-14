@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/bag-box/decal-anh", {data:[{}],fetch:{},mutations:[]});
