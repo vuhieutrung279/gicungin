@@ -1,6 +1,6 @@
 <template>
     <section class="home-section spad pt-0">
-        <div class="container">
+        <div class="container-fluid">
             <div class="slider-section">
                 <VueSlickCarousel v-bind="settings">
                     <div>
@@ -23,7 +23,8 @@
                     </div>
                 </VueSlickCarousel>
             </div>
-
+        </div>
+        <div class="container">
             <hr class="dashed dash-t" />
             <hr class="dashed dash-b dash-bt" />
 
