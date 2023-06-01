@@ -159,158 +159,25 @@
                                         </div>
                                     </div>
                                 </template>
-
-                                <!--Nhập thông tin-->
-                                <div class="pd-info-input f-placeholder">
-                                    <h6 class="text-center">NHẬP THÔNG TIN</h6>
-                                    <ul>
-                                        <li v-if="Boolean('')">
-                                            <div
-                                                class="input-group input-group-rounded"
-                                            >
-                                                <div
-                                                    class="input-group-prepend"
-                                                >
-                                                    <span
-                                                        class="input-group-text f-quote"
-                                                        >Số Lượng</span
-                                                    >
-                                                </div>
-                                                <input
-                                                    autocomplete="off"
-                                                    name="quantity"
-                                                    number-input
-                                                    maxlength="9"
-                                                    type="number"
-                                                    placeholder="nhập số lượng cần in"
-                                                    class="form-control form-control-rounded"
-                                                />
-                                            </div>
-                                        </li>
-                                        <li v-else>
-                                            <div
-                                                style="display: none"
-                                                class="alert alert-danger alert-dismissible fade show"
-                                                role="alert"
-                                            ></div>
-                                            <div
-                                                id="sticker-size-input"
-                                                class="input-group"
-                                            >
-                                                <div
-                                                    class="input-group-prepend"
-                                                >
-                                                    <span
-                                                        class="input-group-text f-quote"
-                                                        >Nhập kích thước</span
-                                                    >
-                                                </div>
-                                                <input
-                                                    autocomplete="off"
-                                                    name="width"
-                                                    number-input
-                                                    maxlength="9"
-                                                    type="number"
-                                                    placeholder="ngang(mm)"
-                                                    class="form-control"
-                                                />
-                                                <input
-                                                    autocomplete="off"
-                                                    name="height"
-                                                    number-input
-                                                    maxlength="9"
-                                                    type="number"
-                                                    placeholder="cao(mm)"
-                                                    class="form-control"
-                                                />
-                                            </div>
-
-                                            <div
-                                                class="input-group input-group-rounded"
-                                            >
-                                                <div
-                                                    class="input-group-prepend"
-                                                >
-                                                    <span
-                                                        class="input-group-text f-quote"
-                                                        >Số Lượng</span
-                                                    >
-                                                </div>
-                                                <input
-                                                    autocomplete="off"
-                                                    name="quantity"
-                                                    number-input
-                                                    maxlength="9"
-                                                    type="number"
-                                                    placeholder="nhập số lượng cần in"
-                                                    class="form-control form-control-rounded"
-                                                />
-                                            </div>
-                                            <div
-                                                class="input-group input-group-rounded"
-                                            >
-                                                <div
-                                                    class="input-group-prepend"
-                                                >
-                                                    <span
-                                                        class="input-group-text input-group-text-rounded f-quote"
-                                                        >Chọn Gia Công</span
-                                                    >
-                                                </div>
-                                                <select
-                                                    name="machining"
-                                                    class="form-control classic"
-                                                >
-                                                    <option></option>
-                                                </select>
-                                            </div>
-                                            <div
-                                                class="input-group input-group-rounded"
-                                            >
-                                                <div
-                                                    class="input-group-prepend"
-                                                >
-                                                    <span
-                                                        class="input-group-text f-quote"
-                                                        >Chọn Bế</span
-                                                    >
-                                                </div>
-                                                <select
-                                                    name="cutType"
-                                                    class="form-control classic"
-                                                >
-                                                    <option></option>
-                                                </select>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="product-note-section"></div>
-                                    <p class="text-danger">
-                                        - Kích thước cho phép nhập từ 10mm đến
-                                        300mm.<br />
-                                        - Số lượng tối thiểu là 100 và số lượng
-                                        tối đa là 1.000.00.<br />
-                                        - Liên hệ 0909.371.586 để đặt hàng số
-                                        lượng lớn.
+                                <div class="pd-title">
+                                    <h5 style="color: #3587c8">
+                                        QUY TRÌNH ĐẶT HÀNG
+                                    </h5>
+                                </div>
+                                <div
+                                    style="border-bottom: solid 1px #e8e8e8"
+                                    class="mb-2 pb-1"
+                                >
+                                    <p>- Chọn mẫu</p>
+                                    <p>
+                                        - Kết nối nhân viên qua: Zalo, Facebook
                                     </p>
+                                    <p>- Chốt mẫu in và số lượng</p>
+                                    <p>- Đặt cọc 50%</p>
+                                    <p>- Tiến hành in ấn</p>
+                                    <p>- Giao hàng</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-5 mb-sm-2">
-                            <div class="banner">
-                                <!-- Banner Section Begin -->
-
-                                <img
-                                    src="https://api.thegioisticker.com/upload/setting/[e9facd4a-eae1-40d5-b968-bb45a6c5ccaf]banner km-01.jpg"
-                                    alt
-                                />
-
-                                <!-- Banner Section End -->
-                            </div>
-                        </div>
-                        <div class="col-md-7">
                             <div class="container-fluid">
                                 <div class="row add-to-cart">
                                     <div
@@ -347,101 +214,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-5 order-1 mb-sm-2">
-                            <div class="promotion">
-                                <!-- Promotion Section Begin -->
-
-                                <div class="quill-editor">
-                                    <div class="ql-container ql-snow">
-                                        <div class="ql-editor">
-                                            <p>
-                                                👉 Kho Sticker:
-                                                <a
-                                                    href="https://thegioisticker.com/thu-vien-online"
-                                                    rel="noopener noreferrer"
-                                                    target="_blank"
-                                                    style="
-                                                        color: rgb(
-                                                            49,
-                                                            152,
-                                                            211
-                                                        );
-                                                    "
-                                                    >https://thegioisticker.com/thu-vien-online</a
-                                                >.
-                                            </p>
-                                            <p>
-                                                👉 Đa dạng mẫu Sticker siêu
-                                                cute.
-                                            </p>
-                                            <p>
-                                                👉 Thiết kế Sticker mới hoàn
-                                                toàn miễn phí đẹp, độc, lạ.
-                                            </p>
-                                            <p>
-                                                👉 Tư vấn nhiệt tình chuyên
-                                                nghiệp.
-                                            </p>
-                                            <p>
-                                                👍 Nhận ship COD toàn quốc tất
-                                                cả đơn hàng cọc 50%.
-                                            </p>
-                                            <p>👍 Tuyển đại lý sỉ toàn quốc.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Promotion Section End -->
-                            </div>
-                        </div>
-                        <div class="col-md-7 order-2">
-                            <div class="promotion">
-                                <!-- Service promotion Section Begin -->
-
-                                <div class="quill-editor">
-                                    <div class="ql-container ql-snow">
-                                        <div class="ql-editor">
-                                            <h3>
-                                                <span
-                                                    style="
-                                                        color: rgb(246, 72, 72);
-                                                    "
-                                                    >FREE SHIPPER</span
-                                                >
-                                            </h3>
-                                            <p>
-                                                👍 Q.Tân Bình, Q.Tân Phú đơn
-                                                hàng trên 299k.
-                                            </p>
-                                            <p>
-                                                👍 Q.3, Q.5, Q.10, Q.11, Q.Phú
-                                                Nhuận đơn hàng trên 699k.
-                                            </p>
-                                            <p>
-                                                👍
-                                                <span
-                                                    style="
-                                                        color: rgb(69, 82, 94);
-                                                    "
-                                                    >Q.1, Quận Gò vấp, Quận 6
-                                                    đơn hàng trên </span
-                                                >999k.
-                                            </p>
-                                            <p>
-                                                👍 Q.7, Q.8 đơn hàng trên
-                                                1.699k.
-                                            </p>
-                                            <p>
-                                                👍 Q. Thủ Đức, Q. Bình Tân đơn
-                                                hàng trên 2.699k.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Service promotion Section End -->
-                            </div>
-                        </div>
+                        <div class="col-md-5 mb-sm-2"></div>
+                        <div class="col-md-7"></div>
                     </div>
                 </div>
                 <div class="col-lg-3 order-2">
@@ -486,12 +260,12 @@
                                                     color: rgb(102, 163, 224);
                                                     font-size: 12px;
                                                 "
-                                                >Mr Thành Duy</span
+                                                >Mr Duy</span
                                             >
                                         </p>
                                         <p>
                                             <span style="font-size: 12px"
-                                                >Zalo: 09888 56 441</span
+                                                >Zalo: 0353 512 525</span
                                             >
                                         </p>
                                         <p><br /></p>
@@ -518,12 +292,12 @@
                                                     color: rgb(102, 163, 224);
                                                     font-size: 12px;
                                                 "
-                                                >Mr Thành Duy</span
+                                                >Ms Nhi</span
                                             >
                                         </p>
                                         <p>
                                             <span style="font-size: 12px"
-                                                >Zalo: 09888 56 441</span
+                                                >Zalo: 0988 856 441</span
                                             >
                                         </p>
                                         <p><br /></p>
@@ -563,108 +337,6 @@
                                                 >Từ Thứ Hai đến Thứ Bảy, nghỉ
                                                 Chủ Nhật</span
                                             >
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Info Sidebar Section End -->
-                    <!-- Info Sidebar Section Begin -->
-                    <div
-                        class="row"
-                        style="background-color: #ececec; padding: 1rem 2rem"
-                    >
-                        <div class="customer-care-items">
-                            <div class="quill-editor">
-                                <div class="ql-container ql-snow">
-                                    <div class="ql-editor">
-                                        <h2>
-                                            <span
-                                                style="
-                                                    color: rgb(230, 0, 0);
-                                                    font-size: 14px;
-                                                "
-                                                >LIÊN HỆ NHÂN VIÊN CSKH</span
-                                            >
-                                        </h2>
-                                        <h2><br /></h2>
-                                        <p>
-                                            <span
-                                                style="
-                                                    font-size: 14px;
-                                                    color: rgb(102, 163, 224);
-                                                "
-                                                ><img
-                                                    src="~/assets/images/87dadf6c-51db-4853-b0b5-24be33b5d1a6.png"
-                                                    width="48"
-                                                    style="
-                                                        display: inline;
-                                                        float: left;
-                                                        margin: 0px 1em 1em 0px;
-                                                    "
-                                            /></span>
-                                        </p>
-                                        <p>
-                                            <span
-                                                style="
-                                                    color: rgb(102, 163, 224);
-                                                    font-size: 12px;
-                                                "
-                                                >Mr Thành Duy</span
-                                            >
-                                        </p>
-                                        <p>
-                                            <span style="font-size: 12px"
-                                                >Zalo: 09888 56 441</span
-                                            >
-                                        </p>
-                                        <p><br /></p>
-                                        <p>
-                                            <span
-                                                style="
-                                                    font-size: 14px;
-                                                    color: rgb(102, 163, 224);
-                                                "
-                                                ><img
-                                                    src="~/assets/images/87dadf6c-51db-4853-b0b5-24be33b5d1a6.png"
-                                                    width="48"
-                                                    style="
-                                                        display: inline;
-                                                        float: left;
-                                                        margin: 0px 1em 1em 0px;
-                                                    "
-                                            /></span>
-                                        </p>
-                                        <p>
-                                            <span
-                                                style="
-                                                    color: rgb(102, 163, 224);
-                                                    font-size: 12px;
-                                                "
-                                                >Mr Thành Duy</span
-                                            >
-                                        </p>
-                                        <p>
-                                            <span style="font-size: 12px"
-                                                >Zalo: 09888 56 441</span
-                                            >
-                                        </p>
-                                        <p><br /></p>
-                                        <p>
-                                            <span
-                                                style="
-                                                    color: rgb(230, 0, 0);
-                                                    font-size: 14px;
-                                                "
-                                                >Thời gian làm việc</span
-                                            >
-                                        </p>
-                                        <p>Sáng: 7g30 - 11g30</p>
-                                        <p>Chiều: 13g00 - 17g00</p>
-                                        <p>
-                                            Từ Thứ Hai đến Thứ Bảy, nghỉ Chủ
-                                            Nhật
                                         </p>
                                     </div>
                                 </div>

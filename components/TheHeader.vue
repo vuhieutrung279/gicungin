@@ -10,6 +10,28 @@
                             </a>
                         </div>
                     </div>
+                    <div class="mobile-menu">
+                        <div class="icon-menu">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                        <div v-for="(item, index) in menu" :key="item + index">
+                            <ul v-if="item.submenu.length">
+                                <li>
+                                    <h5>{{ item.title }}</h5>
+                                </li>
+                                <li
+                                    v-for="(sub, i) in item.submenu"
+                                    :key="sub + i"
+                                    class="product-menu-item"
+                                >
+                                    <NuxtLink :to="`/${item.url}/${sub.url}`">{{
+                                        sub.title
+                                    }}</NuxtLink>
+                                </li>
+                                <hr />
+                            </ul>
+                        </div>
+                    </div>
                     <div class="text-right col-md-9">
                         <div class="row nav-right ml-0 mr-0">
                             <div class="col-sm-3"></div>
@@ -50,9 +72,7 @@
         </div>
         <div class="nav-item">
             <div class="container">
-                <nav
-                    class="nav-menu mobile-menu justify-content-lg-between w-100"
-                >
+                <nav class="nav-menu justify-content-lg-between w-100">
                     <ul>
                         <li class>
                             <a id="category" href="#"
@@ -83,7 +103,7 @@
                         </li>
 
                         <li v-for="(item, index) in menu" :key="item + index">
-                            <NuxtLink :to="`${item.url}`">{{
+                            <NuxtLink :to="`/${item.url}`">{{
                                 item.title
                             }}</NuxtLink>
                             <ul
@@ -104,7 +124,6 @@
                         </li>
                     </ul>
                 </nav>
-                <div id="mobile-menu-wrap"></div>
             </div>
         </div>
     </header>
@@ -120,4 +139,46 @@ export default {
     mounted() {},
 }
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+.header-section {
+    .inner-header {
+        .text-right {
+            @media screen and (max-width: 992px) {
+                display: none;
+            }
+        }
+    }
+    .nav-item {
+        @media screen and (max-width: 992px) {
+            display: none;
+        }
+    }
+    .mobile-menu {
+        background-color: #0e8fe5;
+        position: absolute;
+        inset: 0;
+        overflow-y: auto;
+        z-index: 1000;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px 0;
+        .icon-menu {
+            position: fixed;
+            top: 1%;
+            right: 5%;
+            font-size: 30px;
+        }
+        h5 {
+            font-size: 18px;
+            margin-top: 15px;
+            color: #fff;
+        }
+        a {
+            color: #fff;
+        }
+    }
+}
+</style>

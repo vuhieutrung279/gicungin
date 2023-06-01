@@ -3,7 +3,7 @@ export const state = () => ({
         {
             title: 'Decal',
             url: 'decal',
-            image: 'decal-sua.jpg',
+            image: 'banner-hang-muc/decal.jpg',
             isShowHome: true,
             submenu: [
                 {
@@ -56,7 +56,7 @@ export const state = () => ({
         {
             title: 'Name card',
             url: 'name-card',
-            image: 'danh-thiep-thong-dung.jpg',
+            image: 'banner-hang-muc/name-card.jpg',
             isShowHome: true,
             submenu: [
                 {
@@ -84,7 +84,7 @@ export const state = () => ({
         {
             title: 'Túi - hộp giấy',
             url: 'bag-box',
-            image: 'tui-couche.jpg',
+            image: 'banner-hang-muc/tui.jpg',
             isShowHome: true,
             submenu: [
                 {
@@ -102,7 +102,7 @@ export const state = () => ({
         {
             title: 'In nhanh',
             url: 'fast',
-            image: 'fast-voucher.jpg',
+            image: 'banner-hang-muc/in-nhanh.jpg',
             isShowHome: true,
             submenu: [
                 {
@@ -168,7 +168,7 @@ export const state = () => ({
         {
             title: 'Catologue',
             url: 'catologue',
-            image: 'catologue-tieu-chuan.jpg',
+            image: 'banner-hang-muc/catologue.jpg',
             isShowHome: true,
             submenu: [
                 {
@@ -206,7 +206,7 @@ export const state = () => ({
         {
             title: 'Tờ rơi',
             url: 'flyer',
-            image: 'page-a5.jpg',
+            image: 'banner-hang-muc/to-roi.jpg',
             isShowHome: true,
             submenu: [
                 {
@@ -229,103 +229,103 @@ export const state = () => ({
             submenu: [
                 {
                     title: 'Name card',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'name-card',
+                    image: 'banner-thu-vien/name-card.jpg',
                 },
                 {
                     title: 'Mỹ Phẩm – Spa',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'spa',
+                    image: 'banner-thu-vien/spa.jpg',
                 },
                 {
                     title: 'Ăn Vặt – Bánh – Kẹo',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'an-vat-banh-keo',
+                    image: 'banner-thu-vien/an-vat-banh-keo.jpg',
                 },
                 {
                     title: 'Trà sữa – Trà - Sữa Chua',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'tra-sua',
+                    image: 'banner-thu-vien/tra-sua.jpg',
                 },
                 {
                     title: 'Đặc sản - Món ăn – Điểm tâm',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'mon-an-dac-san',
+                    image: 'banner-thu-vien/mon-an-dac-san.jpg',
                 },
                 {
                     title: 'Phụ kiện',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'phu-kien',
+                    image: 'banner-thu-vien/phu-kien.jpg',
                 },
                 {
                     title: 'Tinh dầu – Sản phẩm làm sạch',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'tinh-dau',
+                    image: 'banner-thu-vien/tinh-dau.jpg',
                 },
                 {
                     title: 'Rau - Củ - Quả - Trái cây',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'rau-cu-qua-trai-cay',
+                    image: 'banner-thu-vien/rau-cu-qua-trai-cay.jpg',
                 },
                 {
                     title: 'Sinh tố - Nước Ép',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'nuoc-ep-sinh-to',
+                    image: 'banner-thu-vien/nuoc-ep-sinh-to.jpg',
                 },
                 {
                     title: ' Thời trang - Quần Áo - Giầy dép',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'thoi-trang',
+                    image: 'banner-thu-vien/thoi-trang.jpg',
                 },
                 {
                     title: 'Coffee – Giải Khát',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'coffee',
+                    image: 'banner-thu-vien/coffee.jpg',
                 },
                 {
                     title: 'Trang Sức - Quà tặng',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'trang-suc',
+                    image: 'banner-thu-vien/trang-suc.jpg',
                 },
                 {
                     title: 'Mẹ và bé',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'me-va-be',
+                    image: 'banner-thu-vien/me-va-be.jpg',
                 },
                 {
                     title: 'Trang trí',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'trang-tri',
+                    image: 'banner-thu-vien/trang-tri.jpg',
                 },
                 {
                     title: 'Đồ dùng gia đình',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'do-dung-gia-dinh',
+                    image: 'banner-thu-vien/do-dung-gia-dinh.jpg',
                 },
                 {
                     title: 'Thú cưng - Giải trí',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'thu-cung',
+                    image: 'banner-thu-vien/thu-cung.jpg',
                 },
                 {
                     title: 'Yến – Mật Ong',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'mat-ong',
+                    image: 'banner-thu-vien/mat-ong.jpg',
                 },
                 {
                     title: 'Sức Khỏe – Thực Phẩm Chức Năng',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'suc-khoe',
+                    image: 'banner-thu-vien/suc-khoe.jpg',
                 },
                 {
                     title: 'Đồ điện tử',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'do-dien-tu',
+                    image: 'banner-thu-vien/do-dien-tu.jpg',
                 },
                 {
                     title: 'Logo',
-                    url: '',
-                    image: 'placeholder.jpg',
+                    url: 'logo',
+                    image: 'banner-thu-vien/logo.jpg',
                 },
             ],
         },

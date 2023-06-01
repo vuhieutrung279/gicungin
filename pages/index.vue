@@ -59,7 +59,7 @@
                         <div class="single-banner">
                             <img
                                 class="mw-100"
-                                src="~/assets/images/gi-cung-in-banner2.png"
+                                src="~/assets/images/gi-cung-in-banner2.jpg"
                             />
                         </div>
                     </div>
@@ -158,6 +158,12 @@ export default {
     &.slick-next {
         right: 15px;
         z-index: 1;
+    }
+}
+.home-section .banner .single-banner .inner-text {
+    .f-category {
+        font-size: 1.15rem;
+        font-weight: bold;
     }
 }
 </style>

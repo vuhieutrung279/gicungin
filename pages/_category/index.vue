@@ -530,9 +530,7 @@ export default {
             (item) => item.url === this.paramsId
         )
     },
-    mounted() {
-        console.log(this.category, ' asdasdasd')
-    },
+    mounted() {},
 }
 </script>
 

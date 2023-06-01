@@ -52,19 +52,6 @@
                 <div class="row mt-3">
                     <div class="col-md-5 flex">
                         <div class="payment-icon">
-                            <img src="~/assets/fonts/LOGO-PDCA-01.svg" />
-                        </div>
-                        <div class="payment-icon">
-                            <img
-                                src="~/assets/fonts/LOGO-THE-GIOI-MAY-IN-NHANH.svg"
-                            />
-                        </div>
-                        <div class="payment-icon">
-                            <img
-                                src="~/assets/fonts/LOGO-THE-GIOI-STICKER.svg"
-                            />
-                        </div>
-                        <div class="payment-icon">
                             <img src="~/assets/images/logo.png" />
                         </div>
                     </div>
@@ -111,8 +98,8 @@
                                             src="~/assets/images/icon-zalo.png"
                                         />
                                         <div class="mt-1 ml-2">
-                                            <p>NVKD Thành Duy</p>
-                                            <p>09888 56 441</p>
+                                            <p>NVKD Nhi</p>
+                                            <p>0988 856 441</p>
                                         </div>
                                     </div>
                                 </div>
@@ -123,8 +110,8 @@
                                             src="~/assets/images/icon-zalo.png"
                                         />
                                         <div class="mt-1 ml-2">
-                                            <p>NVKD Thành Duy</p>
-                                            <p>09888 56 441</p>
+                                            <p>NVKD Phúc</p>
+                                            <p>0353 512 424</p>
                                         </div>
                                     </div>
                                 </div>
@@ -138,8 +125,8 @@
                                             src="~/assets/images/icon-zalo.png"
                                         />
                                         <div class="mt-1 ml-2">
-                                            <p>NVKD Thành Duy</p>
-                                            <p>09888 56 441</p>
+                                            <p>NVKD Duy</p>
+                                            <p>0353 512 525</p>
                                         </div>
                                     </div>
                                 </div>
@@ -150,8 +137,8 @@
                                             src="~/assets/images/icon-zalo.png"
                                         />
                                         <div class="mt-1 ml-2">
-                                            <p>NVKD Thành Duy</p>
-                                            <p>09888 56 441</p>
+                                            <p>NVKD Quốc</p>
+                                            <p>0396 300 803</p>
                                         </div>
                                     </div>
                                 </div>
@@ -165,8 +152,8 @@
                                             src="~/assets/images/icon-zalo.png"
                                         />
                                         <div class="mt-1 ml-2">
-                                            <p>NVKD Thành Duy</p>
-                                            <p>09888 56 441</p>
+                                            <p>NVKD Nhi</p>
+                                            <p>0988 856 441</p>
                                         </div>
                                     </div>
                                 </div>
@@ -177,8 +164,8 @@
                                             src="~/assets/images/icon-zalo.png"
                                         />
                                         <div class="mt-1 ml-2">
-                                            <p>NVKD Thành Duy</p>
-                                            <p>09888 56 441</p>
+                                            <p>NVKD Duy</p>
+                                            <p>0353 512 525</p>
                                         </div>
                                     </div>
                                 </div>
@@ -217,30 +204,15 @@
                         <ul>
                             <li class="mb-3">
                                 <span class="title">HƯỚNG DẪN</span>
-                                <a href="#">
-                                    <p>Hướng dẫn đặt hàng online</p>
-                                </a>
-                                <a href="#">
-                                    <p>Giao hàng và vận chuyển</p>
-                                </a>
-                                <a href="#">
-                                    <p>Hình thức thanh toán</p>
-                                </a>
-                            </li>
-                            <li class="mb-3">
-                                <span class="title">CHÍNH SÁCH</span>
-                                <a href="#">
-                                    <p>Chính sách bảo hành</p>
-                                </a>
-                                <a href="#">
-                                    <p>Thỏa thuận sử dụng</p>
-                                </a>
-                                <a href="#">
-                                    <p>Chính sách đổi trả hàng</p>
-                                </a>
-                                <a href="#">
-                                    <p>Chính sách bảo mật</p>
-                                </a>
+                                <NuxtLink :to="`/huong-dan-dat-hang`"
+                                    ><p>Hướng dẫn đặt hàng online</p></NuxtLink
+                                >
+                                <NuxtLink :to="`/giao-hang`"
+                                    ><p>Giao hàng và vận chuyển</p></NuxtLink
+                                >
+                                <NuxtLink :to="`/hinh-thuc-thanh-toan`"
+                                    ><p>Hình thức thanh toán</p></NuxtLink
+                                >
                             </li>
                         </ul>
                     </div>
