@@ -162,7 +162,12 @@ export default {
             isShowMenu: false,
         }
     },
-    mounted() {},
+    watch: {
+        '$route.params'(newV, oldV) {
+            this.isShowMenu = false
+        },
+    },
+
     methods: {
         showMenu() {
             this.isShowMenu = !this.isShowMenu
