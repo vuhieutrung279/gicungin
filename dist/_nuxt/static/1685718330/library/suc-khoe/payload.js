@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/library/suc-khoe", {data:[{}],fetch:{},mutations:[]});

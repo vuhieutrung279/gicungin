@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/library/trang-suc", {data:[{}],fetch:{},mutations:[]});

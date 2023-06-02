@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/library/tinh-dau", {data:[{}],fetch:{},mutations:[]});

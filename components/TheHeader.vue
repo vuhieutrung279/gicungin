@@ -3,15 +3,18 @@
         <div class="container">
             <div class="inner-header">
                 <div class="row">
-                    <div class="col-md-3 d-flex align-items-center">
+                    <div class="col-lg-3 d-flex align-items-center">
                         <div class="logo">
                             <a href="/">
                                 <img src="~/assets/images/logo.png" alt />
                             </a>
+                            <div class="hamburger-icon" @click="showMenu">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </div>
                         </div>
                     </div>
-                    <div class="mobile-menu">
-                        <div class="icon-menu">
+                    <div v-if="isShowMenu" class="mobile-menu">
+                        <div class="icon-menu" @click="showMenu">
                             <i class="fa fa-times" aria-hidden="true"></i>
                         </div>
                         <div v-for="(item, index) in menu" :key="item + index">
@@ -31,8 +34,30 @@
                                 <hr />
                             </ul>
                         </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-home"></i>
+                                    77 Nguyễn Tử Nha, Phường 12, Quận Tân Bình,
+                                    TP.HCM
+                                </li>
+                                <li>
+                                    <i class="fa fa-calendar"></i>
+                                    Thời gian làm việc: từ T2-T7: 7h30 đến 18h
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    09888.56.441
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i>
+                                    gicungin@gmail.com
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="text-right col-md-9">
+
+                    <div class="text-right col-lg-9">
                         <div class="row nav-right ml-0 mr-0">
                             <div class="col-sm-3"></div>
                             <div class="col-sm-5 text-left ml-3">
@@ -134,9 +159,15 @@ export default {
     data() {
         return {
             menu: this.$store.state.menu,
+            isShowMenu: false,
         }
     },
     mounted() {},
+    methods: {
+        showMenu() {
+            this.isShowMenu = !this.isShowMenu
+        },
+    },
 }
 </script>
 <style lang="scss">
@@ -178,6 +209,25 @@ export default {
         }
         a {
             color: #fff;
+        }
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .hamburger-icon {
+            display: none;
+            color: #fff;
+            font-size: 2rem;
+        }
+    }
+    @media screen and (max-width: 992px) {
+        min-height: auto;
+        .logo {
+            .hamburger-icon {
+                display: block;
+            }
         }
     }
 }

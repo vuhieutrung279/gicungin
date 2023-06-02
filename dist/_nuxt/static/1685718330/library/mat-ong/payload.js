@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/library/mat-ong", {data:[{}],fetch:{},mutations:[]});

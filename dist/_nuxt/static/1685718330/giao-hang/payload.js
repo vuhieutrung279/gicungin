@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/giao-hang", {data:[{}],fetch:{},mutations:[]});

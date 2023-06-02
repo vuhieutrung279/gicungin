@@ -459,7 +459,6 @@ hr.dashed {
 }
 
 .search-order .confirm-code {
-    background-image: url("../images/search-order3.jpg");
     background-size: cover;
     height: 700px;
     display: flex;

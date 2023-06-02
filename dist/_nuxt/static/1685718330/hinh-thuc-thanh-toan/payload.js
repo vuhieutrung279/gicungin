@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/hinh-thuc-thanh-toan", {data:[{}],fetch:{},mutations:[]});

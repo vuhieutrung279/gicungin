@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/library/spa", {data:[{}],fetch:{},mutations:[]});
