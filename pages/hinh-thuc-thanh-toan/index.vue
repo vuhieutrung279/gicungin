@@ -1,6 +1,6 @@
 <template>
     <div class="landing-page">
-        <div class="container">
+        <div class="container c-1280">
             <h2>Hướng dẫn thanh toán tại Gì Cũng In</h2>
             <p>Gì Cũng In nhận thanh toán với các hình thức sau:</p>
             <h4>Thanh toán tiền mặt tại văn phòng công ty</h4>
@@ -47,30 +47,6 @@
             </p>
         </div>
     </div>
-    <!-- Hướng dẫn thanh toán tại Gì Cũng In
-Hướng dẫn thanh toán tại Gì Cũng In
-Gì Cũng In nhận thanh toán với các hình thức sau:
-Thanh toán tiền mặt tại văn phòng công ty
-- Quý khách hàng có thể đến trực tiếp văn phòng hoặc chi nhánh Công ty tại địa chỉ sau để thanh toán:
-77 Nguyễn Tử Nha, Phường 12, Quận Tân Bình, TP.HCM
-
-Thanh toán Chuyển Khoản 
-- Thanh toán chuyển khoản ra đời giúp cho việc thanh toán trở lên dễ dàng, tiện lợi, chính xác, Với các app thanh toán hiện nay thao tác cực kì đơn giản, nhanh, gọn, lẹ giúp chúng ta có thể thanh toán ở bất kì nơi đâu bất kể thời gian nào qua mobile banking hoặc internet banking. Chỉ cần smartphone hoặc bất kì một máy tính nào bạn cũng có thể thanh toán ngay. Gì Cũng In cung cấp 2 tại khoản thanh toán cho Quý khách như sau:
-
-   
-
-Thanh toán qua ví điện tử momo
- 
-Với App momo thanh toán bất kì hóa đơn nào cũng trở nên tiện lợi và dễ dàng hơn.
-Gì Cũng In chấp nhận với số điện thoại thanh toán sau:
-Số điện thoại: 0399516141
-
-
-Lưu ý: Sau khi chuyển khoản, quý khách vui lòng giữ lại biên lai chuyển tiền để đối chiếu trong trường hợp cần thiết. CÔNG TY chỉ chấp nhận chuyển khoản vào danh sách tài khoản được niêm yết ở trên.
-- Số điện thoại liên lạc: 0988 856 441
-
-CÔNG TY TNHH MTV GÌ CŨNG IN
- -->
 </template>
 
 <script>
@@ -78,15 +54,18 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
+.c-1280 {
+    max-width: 1280px !important;
+    width: 100%;
+}
 .landing-page {
     padding: 40px 10px 25px;
-    text-align: center;
     h2 {
-        color: #118fe5;
+        color: #ff6600;
         margin-bottom: 25px;
     }
     h4 {
-        color: #118fe5;
+        color: #ff6600;
     }
     p {
         font-size: 18px;
@@ -97,7 +76,7 @@ export default {}
                 font-weight: bold;
             }
             a {
-                color: #118fe5;
+                color: #ff6600;
                 &:focus,
                 &:hover {
                     color: #ea662f;

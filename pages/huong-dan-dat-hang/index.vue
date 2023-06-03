@@ -1,6 +1,6 @@
 <template>
     <div class="landing-page">
-        <div class="container">
+        <div class="container c-1280">
             <h2>Hướng dẫn đặt hàng</h2>
             <p>
                 Gì Cũng In với giao diện được thiết kế đơn giản thân thiện và
@@ -63,11 +63,14 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
+.c-1280 {
+    max-width: 1280px !important;
+    width: 100%;
+}
 .landing-page {
     padding: 40px 10px 25px;
-    text-align: center;
     h2 {
-        color: #118fe5;
+        color: #ff6600;
         margin-bottom: 25px;
     }
     p {
@@ -79,7 +82,7 @@ export default {}
                 font-weight: bold;
             }
             a {
-                color: #118fe5;
+                color: #ff6600;
                 &:focus,
                 &:hover {
                     color: #ea662f;
@@ -90,11 +93,9 @@ export default {}
                 justify-content: center;
                 align-items: center;
                 flex-wrap: wrap;
-                max-width: 700px;
                 margin: 0 auto;
                 img {
-                    flex: 50%;
-                    width: 250px;
+                    width: 200px;
                 }
             }
         }

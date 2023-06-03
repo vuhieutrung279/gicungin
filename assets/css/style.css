@@ -776,7 +776,7 @@ ol {
     padding: 15px 15px 0px 15px;
     font-weight: bold;
     font-size: 15px;
-    color: #3198d3;
+    color: #ff6600;
     font-family: "San Francisco Display Medium";
 }
 
@@ -4489,7 +4489,7 @@ ol {
 .sample-search-icon {
     font-size: 18px;
     border-radius: 0px 5px 5px 0px;
-    background-color: #3198d3;
+    background-color: #ff6600;
     color: white;
     margin-left: -2px;
 }
@@ -4530,12 +4530,12 @@ ol {
 }
 
 .header-section {
-    background-color: #0E8FE5;
+    background-color: #ff6600;
     min-height: 80px;
 }
 
 #category {
-    background-color: #0E8FE5;
+    background-color: #ff6600;
     color: #fff
 }
 
@@ -4566,7 +4566,7 @@ body {}
 .f-title {
     font-size: 18px !important;
     font-family: "San Francisco Display Semibold" !important;
-    color: #3198d3;
+    color: #ff6600;
     font-weight: bold;
 }
 
@@ -4634,7 +4634,7 @@ hr.dashed {
 .header-section .inner-header {
     padding: 0 !important;
     height: 70px;
-    background-color: #0E8FE5;
+    background-color: #ff6600;
 }
 
 .header-section .inner-header .nav-right {
@@ -4794,7 +4794,7 @@ hr.dashed {
     margin-left: -25px;
     margin-right: 12px;
     padding-right: 5px;
-    background-color: #3198d3;
+    background-color: #ff6600;
     border-radius: 50%;
     font-size: 12px;
     font-weight: 700 !important;
@@ -5070,7 +5070,7 @@ hastag .size-choose {
 .hastag h4 {
     font-weight: bold;
     font-size: 20px;
-    color: #3198d3;
+    color: #ff6600;
 }
 
 .add-to-cart .total-price {

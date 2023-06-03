@@ -22,7 +22,7 @@ a {
 }
 
 .primary-btn {
-    background-color: #3198d3;
+    background-color: #ff6600;
 }
 
 .primary-btn:hover {
@@ -34,7 +34,7 @@ a {
 }
 
 .cart-table table tr th {
-    background-color: #3198d3;
+    background-color: #ff6600;
     color: #fff;
     width: 180px;
 }
@@ -57,11 +57,11 @@ a {
 }
 
 .main-news a {
-    color: #0e8fe5;
+    color: #ff6600;
 }
 
 .other-news-title {
-    color: #3198d3;
+    color: #ff6600;
 }
 
 hr.dashed {
@@ -99,7 +99,7 @@ hr.dashed {
 }
 
 .page-details .product-tab li a::before {
-    background: #3198d3;
+    background: #ff6600;
 }
 
 .page-details .product-big-img {
@@ -154,7 +154,7 @@ hr.dashed {
 }
 
 .customer-care-items .cc-title h5 {
-    color: #3587c8;
+    color: #ff6600;
     font-weight: 500;
     margin-bottom: 0.75rem;
 }
@@ -183,7 +183,7 @@ hr.dashed {
 }
 
 .customer-care-items .cc-item .cc-text h6 {
-    color: #3587c8;
+    color: #ff6600;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -195,7 +195,7 @@ hr.dashed {
 }
 
 .customer-care-items .cc-working-time h5 {
-    color: #3587c8;
+    color: #ff6600;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -240,7 +240,7 @@ hr.dashed {
 }
 
 .page-details .add-to-cart {
-    height: 130px;
+
     background-color: #e9ecef;
     font-size: 16px;
     padding: 0.625rem;
@@ -288,7 +288,7 @@ hr.dashed {
 }
 
 .page-details .promotion-items .fa.fa-check-circle {
-    color: #3198d3;
+    color: #ff6600;
     font-size: 20px;
     margin-right: 10px;
 }
@@ -299,7 +299,7 @@ hr.dashed {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    color: #3198d3;
+    color: #ff6600;
 }
 
 .page-details .relative-products .relative-product-item {
@@ -318,7 +318,7 @@ hr.dashed {
 
 .page-details .divider>div>div {
     height: 0.5rem;
-    background-color: #3198d3;
+    background-color: #ff6600;
 }
 
 .checkout .container .row,
@@ -415,7 +415,7 @@ hr.dashed {
 .online-library .shape-item {
     font-size: 18px;
     color: #fff;
-    background-color: #3198d3;
+    background-color: #ff6600;
     font-weight: 500;
     margin-bottom: 0.5rem;
     padding: 0.25rem 0.25rem;
@@ -440,7 +440,7 @@ hr.dashed {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3198d3;
+    background-color: #ff6600;
     color: #fff;
     font-weight: 500;
 }
@@ -654,7 +654,7 @@ hr.dashed {
 
 .footer-section .contact .order-help .hot-line .phone p {
     font-size: 18px;
-    color: #3198d3;
+    color: #ff6600;
     font-weight: 500;
 }
 
@@ -893,16 +893,16 @@ hr.dashed {
 }
 
 .header-section .inner-header .nav-right .cart-icon>a>span {
-    background-color: #3198d3;
+    background-color: #ff6600;
 }
 
 .header-section .inner-header .nav-right .cart-icon .cart-hover .select-items .si-text .product-selected>p {
-    color: #3198d3;
+    color: #ff6600;
 }
 
 .header-section .inner-header .nav-right .cart-icon .cart-hover .select-total h5,
 .header-section .inner-header .nav-right .cart-icon .cart-hover .select-total span {
-    color: #3198d3;
+    color: #ff6600;
 }
 
 .header-section .inner-header .nav-right .cart-icon .cart-hover .si-pic {
@@ -911,7 +911,7 @@ hr.dashed {
 }
 
 .header-section .inner-header .nav-right .cart-icon .cart-hover .select-button .view-card {
-    background-color: #3198d3;
+    background-color: #ff6600;
 }
 
 .header-section .nav-item .nav-menu li a {
@@ -1036,7 +1036,7 @@ hr.dashed {
 .header-section .nav-item .nav-menu li.active>a,
 .header-section .nav-item .nav-menu li:hover>a,
 .header-section .nav-item .nav-menu li.hover>a {
-    background: #0E8FE5;
+    background: #ff6600;
     color: #fff;
 }
 
@@ -1072,7 +1072,7 @@ hr.dashed {
 
 .header-section .nav-item .nav-menu li .dropdown li:hover>a {
     color: #fff;
-    background: #0E8FE5;
+    background: #ff6600;
 }
 
 .header-section .nav-item .nav-menu li .dropdown.dropdown-item-image {
@@ -1092,7 +1092,7 @@ hr.dashed {
 .order-form h4 {
     font-weight: bold;
     font-size: 20px;
-    color: #3198d3;
+    color: #ff6600;
 }
 
 .order-form .input-group {
@@ -1336,8 +1336,8 @@ hr.dashed {
 
 .blue-btn {
     color: #ffffff;
-    background: #3198d3;
-    border: 1px solid #3198d3;
+    background: #ff6600;
+    border: 1px solid #ff6600;
 }
 
 .blue-btn:hover {
@@ -1369,9 +1369,9 @@ hr.dashed {
 
 .pagination a:hover,
 .pagination a.active {
-    background: #3198d3;
+    background: #ff6600;
     color: #fff;
-    border: 1px solid #3198d3;
+    border: 1px solid #ff6600;
 }
 
 .pagination a.active {
@@ -1424,7 +1424,7 @@ hr.dashed {
     position: fixed;
     bottom: 25px;
     right: 25px;
-    background-color: #3198d3;
+    background-color: #ff6600;
     display: none;
     padding: .75rem 1rem
 }

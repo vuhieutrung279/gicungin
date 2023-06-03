@@ -13,47 +13,6 @@
                                     "
                                 />
                             </div>
-                            <div class="product-thumbs">
-                                <div
-                                    class="product-thumbs-track d-flex flex-lg-row"
-                                >
-                                    <div class="pt" style="width: 90px">
-                                        <img
-                                            :src="
-                                                require(`~/assets/images/category/${subCategory.image}`)
-                                            "
-                                        />
-                                    </div>
-                                    <div class="pt" style="width: 90px">
-                                        <img
-                                            :src="
-                                                require(`~/assets/images/category/${subCategory.image}`)
-                                            "
-                                        />
-                                    </div>
-                                    <div class="pt" style="width: 90px">
-                                        <img
-                                            :src="
-                                                require(`~/assets/images/category/${subCategory.image}`)
-                                            "
-                                        />
-                                    </div>
-                                    <div class="pt" style="width: 90px">
-                                        <img
-                                            :src="
-                                                require(`~/assets/images/category/${subCategory.image}`)
-                                            "
-                                        />
-                                    </div>
-                                    <div class="pt" style="width: 90px">
-                                        <img
-                                            :src="
-                                                require(`~/assets/images/category/${subCategory.image}`)
-                                            "
-                                        />
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <div class="col-lg-7">
                             <div class="product-details">
@@ -67,7 +26,7 @@
                                     <p>Giá rẻ, số lượng in, sản xuất nhanh</p>
                                 </div>
                                 <div class="pd-title">
-                                    <h5 style="color: #3587c8">
+                                    <h5 style="color: #ff6600">
                                         ĐẶC ĐIÊM CƠ BẢN
                                     </h5>
                                 </div>
@@ -91,76 +50,8 @@
                                         cần lột ra và dán.
                                     </p>
                                 </div>
-
-                                <button
-                                    id="set-product-id"
-                                    class="d-sm-none"
-                                    @click="order_setProductId(3, 2)"
-                                ></button>
-
-                                <template v-if="Boolean('true')">
-                                    <div class="pd-title">
-                                        <h5 style="color: #3587c8">
-                                            CHỌN KÍCH THƯỚC BẠN MUỐN
-                                        </h5>
-                                    </div>
-                                    <div class="pd-size-choose">
-                                        <div class="sc-item">
-                                            <input id="sm-size" type="radio" />
-                                            <label
-                                                for="sm-size"
-                                                width="20"
-                                                height="30"
-                                                >2x3cm</label
-                                            >
-                                        </div>
-                                        <div class="sc-item">
-                                            <input id="md-size" type="radio" />
-                                            <label
-                                                for="md-size"
-                                                width="30"
-                                                height="40"
-                                                >3x4cm</label
-                                            >
-                                        </div>
-                                        <div class="sc-item">
-                                            <input id="lg-size" type="radio" />
-                                            <label
-                                                for="lg-size"
-                                                width="40"
-                                                height="50"
-                                                >4x5cm</label
-                                            >
-                                        </div>
-                                        <div class="sc-item">
-                                            <input id="xl-size" type="radio" />
-                                            <label
-                                                for="xl-size"
-                                                width="50"
-                                                height="60"
-                                                >5x6cm</label
-                                            >
-                                        </div>
-                                        <div class="sc-item">
-                                            <input id="xxl-size" type="radio" />
-                                            <label
-                                                for="xxl-size"
-                                                width="60"
-                                                height="80"
-                                                >6x8cm</label
-                                            >
-                                        </div>
-                                        <div class="sc-item">
-                                            <input
-                                                id="other-size"
-                                                type="radio"
-                                            />
-                                            <label for="other-size">Khác</label>
-                                        </div>
-                                    </div>
-                                </template>
                                 <div class="pd-title">
-                                    <h5 style="color: #3587c8">
+                                    <h5 style="color: #ff6600">
                                         QUY TRÌNH ĐẶT HÀNG
                                     </h5>
                                 </div>
@@ -178,44 +69,33 @@
                                     <p>- Giao hàng</p>
                                 </div>
                             </div>
-                            <div class="container-fluid">
-                                <div class="row add-to-cart">
-                                    <div
-                                        class="col-sm-8 d-flex flex-column justify-content-sm-around pt-2 pb-2"
-                                    >
-                                        <h5 style="color: #29a34b">
-                                            Đặt in online, nhận ngay giá tốt
-                                        </h5>
-                                        <p>
-                                            <span
-                                                class="text-danger total-price"
-                                                >đ</span
-                                            >
-                                        </p>
-                                        <p>
-                                            <span
-                                                >(Giá trên chưa bao gồm 10%
-                                                VAT)</span
-                                            >
-                                        </p>
-                                    </div>
-                                    <div
-                                        class="col-sm-4 d-flex justify-content-center align-items-center"
-                                    >
-                                        <button
-                                            class="btn primary-btn pd-cart f-button"
-                                            tabindex="1"
-                                        >
-                                            ĐẶT HÀNG
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="container-fluid"></div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-5 mb-sm-2"></div>
-                        <div class="col-md-7"></div>
+                    <div class="row add-to-cart">
+                        <div class="col-sm-12">
+                            <h5 style="color: #29a34b; margin-bottom: 15px">
+                                Đặt in online, nhận ngay giá tốt
+                            </h5>
+                            <div class="list-qr">
+                                <img
+                                    src="~/assets/images/category/qr/QR1.jpg"
+                                    alt="qr1 img"
+                                />
+                                <img
+                                    src="~/assets/images/category/qr/QR2.jpg"
+                                    alt="qr2 img"
+                                />
+                                <img
+                                    src="~/assets/images/category/qr/QR3.jpg"
+                                    alt="qr3 img"
+                                />
+                                <img
+                                    src="~/assets/images/category/qr/QR4.jpg"
+                                    alt="qr4 img"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 order-2">
@@ -520,4 +400,18 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.list-qr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    @media screen and (max-width: 992px) {
+        justify-content: center;
+    }
+    img {
+        width: 200px;
+    }
+}
+</style>

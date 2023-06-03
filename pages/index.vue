@@ -81,7 +81,7 @@
                         <div class="card">
                             <img
                                 class="card-img-top rounded"
-                                src="~/assets/images/c2333c22-cbff-45cf-b9fe-d826c7cb5e383-BANNER-NEW08-03-2023-01.png"
+                                src="~/assets/images/banner-promo-1.jpg"
                                 style="
                                     height: 225px;
                                     width: 100;
@@ -95,7 +95,7 @@
                         <div class="card">
                             <img
                                 class="card-img-top rounded"
-                                src="~/assets/images/7529fc49-f0ef-406a-ab19-356284f8dd913.png"
+                                src="~/assets/images/banner-promo-2.jpg"
                                 style="
                                     height: 225px;
                                     width: 100%;
@@ -109,7 +109,7 @@
                         <div class="card">
                             <img
                                 class="card-img-top rounded"
-                                src="~/assets/images/b54c5cb6-73f1-481c-b2c0-0eae00a229083-BANNER-NEW08-03-2023-03.png"
+                                src="~/assets/images/banner-promo-3.jpg"
                                 style="
                                     height: 225px;
                                     width: 100%;
