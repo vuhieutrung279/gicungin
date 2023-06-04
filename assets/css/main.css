@@ -1531,3 +1531,7 @@ hr.dashed {
 .catalog-price-container .price-container {
     flex: 1;
 }
+
+main {
+    margin-top: 130px;
+}

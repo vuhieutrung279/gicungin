@@ -161,7 +161,7 @@ ol {
 }
 
 .spad {
-	padding-top: 75px;
+	/* padding-top: 75px; */
 }
 
 .text-white h1,
@@ -1739,7 +1739,7 @@ ol {
 -----------------------*/
 
 .product-shop {
-    padding-top: 80px;
+    padding-top: 80px; 
 }
 
 .filter-widget {

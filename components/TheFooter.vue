@@ -222,15 +222,24 @@
                         <span class="title">KÊNH ONLINE</span>
                         <p>Gì cũng in</p>
                         <div class="w-100 social-media">
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a class="fa fa-youtube-play"></a>
-                            <a href="#">
+                            <a
+                                href="https://www.facebook.com/gicungin95"
+                                class="fa fa-facebook"
+                                target="_blank"
+                            ></a>
+                            <a
+                                href="https://zalo.me/0988856441"
+                                target="_blank"
+                            >
                                 <img
                                     class="f-icon"
                                     src="~/assets/images/icon-zalo.png"
                                 />
                             </a>
-                            <a href="#">
+                            <a
+                                href="https://shopee.vn/gicungin?categoryId=100011&entryPoint=ShopByPDP&itemId=20789312092"
+                                target="_blank"
+                            >
                                 <img
                                     class="f-icon"
                                     src="~/assets/images/shopee.png"

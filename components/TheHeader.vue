@@ -177,6 +177,10 @@ export default {
 </script>
 <style lang="scss">
 .header-section {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
     .inner-header {
         .text-right {
             @media screen and (max-width: 992px) {
