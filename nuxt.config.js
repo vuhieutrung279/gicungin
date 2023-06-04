@@ -68,8 +68,17 @@ export default {
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
-    modules: [],
+    modules: ['@nuxtjs/robots', '@nuxtjs/sitemap'],
+    robots: {
+        /* module options */
+        UserAgent: '*',
+        Disallow: '/admin',
+        Allow: '/',
+    },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {},
+    sitemap: {
+        hostname: 'https://gicungin.com', // https://www.yoursite.com
+    },
 }
