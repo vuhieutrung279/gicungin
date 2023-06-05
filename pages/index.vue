@@ -7,18 +7,21 @@
                         <img
                             class="w-100"
                             src="~/assets/images/banner-slide-1.jpg"
+                            alt="kho thư viện banner"
                         />
                     </div>
                     <div>
                         <img
                             class="w-100"
                             src="~/assets/images/banner-slide-2.jpg"
+                            alt="sticker banner"
                         />
                     </div>
                     <div>
                         <img
                             class="w-100"
                             src="~/assets/images/banner-slide-3.jpg"
+                            alt="thiết kế free banner"
                         />
                     </div>
                 </VueSlickCarousel>
@@ -27,7 +30,7 @@
         <div class="container">
             <hr class="dashed dash-t" />
             <hr class="dashed dash-b dash-bt" />
-
+            <h1 class="d-none">Gì Cũng In</h1>
             <div class="banner">
                 <div class="row">
                     <div
@@ -40,7 +43,7 @@
                                 :src="
                                     require(`~/assets/images/category/${item.image}`)
                                 "
-                                alt="Thi công"
+                                :alt="`${item.title} thumb`"
                             />
                             <div class="inner-text">
                                 <h5 class="f-category">{{ item.title }}</h5>
@@ -60,6 +63,7 @@
                             <img
                                 class="mw-100"
                                 src="~/assets/images/gi-cung-in-banner2.jpg"
+                                alt="gì cũng in card"
                             />
                         </div>
                     </div>
@@ -68,6 +72,7 @@
                             <img
                                 class="mw-100"
                                 src="~/assets/images/gi-cung-in-banner.jpg"
+                                alt="gì cũng in card 2"
                             />
                         </div>
                     </div>
@@ -87,7 +92,7 @@
                                     width: 100;
                                     display: block;
                                 "
-                                alt
+                                alt="sale name card banner"
                             />
                         </div>
                     </div>
@@ -101,7 +106,7 @@
                                     width: 100%;
                                     display: block;
                                 "
-                                alt
+                                alt="in ấn theo yêu cầu banner"
                             />
                         </div>
                     </div>
@@ -115,7 +120,7 @@
                                     width: 100%;
                                     display: block;
                                 "
-                                alt
+                                alt="decal a3 giá 12k"
                             />
                         </div>
                     </div>

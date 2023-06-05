@@ -24,12 +24,14 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-28092743.e9f135f",
     "@nuxtjs/eslint-config": "^11.0.0",
     "@nuxtjs/eslint-module": "^3.1.0",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.5.1",
+    "nuxt-schema-org": "^2.2.0",
     "prettier": "^2.7.1",
     "sass": "^1.62.1",
     "sass-loader": "^10.4.1"

@@ -11,28 +11,28 @@
                 <div class="row mt-3 mb-3">
                     <div class="col-md-12 flex">
                         <div class="parter-logo">
-                            <img src="~/assets/fonts/dhs-logo-xanh-01.svg" />
+                            <img src="~/assets/fonts/dhs-logo-xanh-01.svg" alt="dhs logo" />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/memoryzone-logo2.png" />
+                            <img src="~/assets/images/memoryzone-logo2.png" alt="memoryzone logo" />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/logo-adv-271x61-01.png" />
+                            <img src="~/assets/images/logo-adv-271x61-01.png" alt="adv logo" />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/logo-sbc.png" />
+                            <img src="~/assets/images/logo-sbc.png" alt="sbc logo" />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/zodiac-logo.jpg" />
+                            <img src="~/assets/images/zodiac-logo.jpg" alt="zodiac logo" />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/DGG-logo.png" />
+                            <img src="~/assets/images/DGG-logo.png" alt="dgg logo" />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/logo-nhatviet.png" />
+                            <img src="~/assets/images/logo-nhatviet.png" alt="nhatviet logo" />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/logo-ho-viet-ads.png" />
+                            <img src="~/assets/images/logo-ho-viet-ads.png" alt="ho viet logo" />
                         </div>
                     </div>
                 </div>
@@ -52,31 +52,31 @@
                 <div class="row mt-3">
                     <div class="col-md-5 flex">
                         <div class="payment-icon">
-                            <img src="~/assets/images/logo.png" />
+                            <img src="~/assets/images/logo.png" alt="gì cũng in logo footer" />
                         </div>
                     </div>
 
                     <div class="col-md-7 flex">
                         <div class="payment-icon">
-                            <img src="~/assets/images/thanh-toan-online2.png" />
+                            <img src="~/assets/images/thanh-toan-online2.png" alt="credit logo" />
                         </div>
                         <div class="payment-icon">
-                            <img src="~/assets/images/Vietcombank2.png" />
+                            <img src="~/assets/images/Vietcombank2.png" alt="vietcombank logo" />
                         </div>
                         <div class="payment-icon">
-                            <img src="~/assets/images/ACB.png" />
+                            <img src="~/assets/images/ACB.png" alt="acb logo" />
                         </div>
                         <div class="payment-icon">
-                            <img src="~/assets/images/MoMo_Logo.png" />
+                            <img src="~/assets/images/MoMo_Logo.png" alt="momo logo" />
                         </div>
                         <div class="payment-icon">
-                            <img src="~/assets/images/zalopay.png" />
+                            <img src="~/assets/images/zalopay.png" alt="zalopay logo" />
                         </div>
                         <div class="payment-icon">
-                            <img src="~/assets/images/viettelpay2.png" />
+                            <img src="~/assets/images/viettelpay2.png" alt="viettelpay logo" />
                         </div>
                         <div class="payment-icon">
-                            <img src="~/assets/images/vnpay.png" />
+                            <img src="~/assets/images/vnpay.png" alt="vnpay logo" />
                         </div>
                     </div>
                 </div>
@@ -96,6 +96,7 @@
                                         <img
                                             class="f-icon"
                                             src="~/assets/images/icon-zalo.png"
+                                            alt="zalo logo"
                                         />
                                         <div class="mt-1 ml-2">
                                             <p>NVKD Nhi</p>
@@ -108,6 +109,7 @@
                                         <img
                                             class="f-icon"
                                             src="~/assets/images/icon-zalo.png"
+                                            alt="zalo logo"
                                         />
                                         <div class="mt-1 ml-2">
                                             <p>NVKD Phúc</p>
@@ -123,6 +125,7 @@
                                         <img
                                             class="f-icon"
                                             src="~/assets/images/icon-zalo.png"
+                                            alt="zalo logo"
                                         />
                                         <div class="mt-1 ml-2">
                                             <p>NVKD Duy</p>
@@ -135,6 +138,7 @@
                                         <img
                                             class="f-icon"
                                             src="~/assets/images/icon-zalo.png"
+                                            alt="zalo logo"
                                         />
                                         <div class="mt-1 ml-2">
                                             <p>NVKD Quốc</p>
@@ -150,6 +154,7 @@
                                         <img
                                             class="f-icon"
                                             src="~/assets/images/icon-zalo.png"
+                                            alt="zalo logo"
                                         />
                                         <div class="mt-1 ml-2">
                                             <p>NVKD Nhi</p>
@@ -162,6 +167,7 @@
                                         <img
                                             class="f-icon"
                                             src="~/assets/images/icon-zalo.png"
+                                            alt="zalo logo"
                                         />
                                         <div class="mt-1 ml-2">
                                             <p>NVKD Duy</p>
@@ -234,6 +240,7 @@
                                 <img
                                     class="f-icon"
                                     src="~/assets/images/icon-zalo.png"
+                                    alt="zalo logo"
                                 />
                             </a>
                             <a
@@ -243,6 +250,7 @@
                                 <img
                                     class="f-icon"
                                     src="~/assets/images/shopee.png"
+                                    alt="shopee logo"
                                 />
                             </a>
                         </div>

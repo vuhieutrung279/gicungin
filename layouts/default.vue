@@ -15,5 +15,21 @@
         <TheFooter />
     </div>
 </template>
-
+<script>
+ import ogImage from '@/assets/images/logo.jpg';
+export default {
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://gicungin.com' + this.$route.path
+        },
+      ],
+      meta: [
+        { hid: 'og:image', property: 'og:image', content: 'https://gicungin.com'+ ogImage }
+      ]
+    }
+  }
+}</script>
 <style lang="sass"></style>

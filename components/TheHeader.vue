@@ -6,7 +6,7 @@
                     <div class="col-lg-3 d-flex align-items-center">
                         <div class="logo">
                             <a href="/">
-                                <img src="~/assets/images/logo.png" alt />
+                                <img src="~/assets/images/logo.png" alt="gì cũng in logo" />
                             </a>
                             <div class="hamburger-icon" @click="showMenu">
                                 <i class="fa fa-bars" aria-hidden="true"></i>

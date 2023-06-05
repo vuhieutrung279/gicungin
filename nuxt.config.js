@@ -21,13 +21,12 @@ export default {
             {
                 name: 'description',
                 content:
-                    'Thế giới sticker - Tem nhãn decal, Tem nhãn sticker chất lượng cao uy tín chuyên nghiệp tại Tp HCM.',
+                    'Gì cũng in - Chuyên thiết kế, in ấn: tem nhãn decal, túi hộp, standee, catologue, tờ rơi, thiết kế logo, bộ nhận diện thương hiệu chất lượng cao tại Tp. Hồ Chí Minh.',
             },
             {
                 name: 'keywords',
-                content:
-                    'in tem nhãn, in nhãn mác, in tem decal, in tem bảo hành, in sticker, in tem nhãn tại tân phú.',
-            },
+                content: 'gì cũng in, in tem nhãn, in nhãn mác, in tem decal, in tem bảo hành, in sticker, in áo thun, in danh thiếp, in túi giấy, in nhanh, in standee, in catologue, in tại tân bình, in tại Tp HCM.',
+            }
         ],
         link: [
             {
@@ -68,11 +67,10 @@ export default {
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
-    modules: ['@nuxtjs/robots', '@nuxtjs/sitemap'],
+    modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
     robots: {
         /* module options */
         UserAgent: '*',
-        Disallow: '/admin',
         Allow: '/',
     },
 

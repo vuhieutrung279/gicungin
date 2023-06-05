@@ -10,7 +10,7 @@
                 nhiều yếu tố. Gì Cũng In luôn luôn mong muốn phục vụ tốt nhu cầu
                 của từng Quý khách.
             </p>
-            <img src="~/assets/images/freeship1.jpg" alt="" />
+            <img src="~/assets/images/freeship1.jpg" alt="freeship 1 banner" />
             <p>
                 - Gì Cũng In luôn kết nối với đội ngũ giao hàng nhanh chóng và
                 linh hoạt sẽ cố gắng mang lại một dịch vụ giao hàng nhanh, đẹp
@@ -36,7 +36,7 @@
                 sắp xếp giao nhanh nhất.
             </p>
             <h4>1 - GIAO HÀNG MIỄN PHÍ</h4>
-            <img src="~/assets/images/freeship2.jpg" alt="" />
+            <img src="~/assets/images/freeship2.jpg" alt="freeship 2 banner" />
             <p>Giao hàng miễn phí khi đạt các điều kiện sau:</p>
             <p>
                 - Đơn hàng nhỏ gọn đối với các khổ giao dưới kích thước A3 + (33
@@ -52,8 +52,8 @@
                 gojek,… chúng tôi chỉ hỗ trợ tối đa cho 28k/đơn hàng
             </p>
             <h4>2 - GIAO HÀNG TÍNH PHÍ - PHÍ GIAO RA NHÀ XE - CHÀNH XE:</h4>
-            <img src="~/assets/images/freeship3.jpg" alt="" />
-            <img src="~/assets/images/freeship4.jpg" alt="" />
+            <img src="~/assets/images/freeship3.jpg" alt="freeship 3 banner" />
+            <img src="~/assets/images/freeship4.jpg" alt="freeship 4 banner" />
             <p class="title">Các đơn hàng giao tại Tp HCM</p>
             <p>
                 Đối với các đơn hàng không đạt tiêu chí giao hàng miễn phí. Gì

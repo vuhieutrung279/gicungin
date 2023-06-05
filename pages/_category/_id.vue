@@ -11,6 +11,7 @@
                                     :src="
                                         require(`~/assets/images/category/${subCategory.image}`)
                                     "
+                                    :alt="`${subCategory.title} image`"
                                 />
                             </div>
                         </div>
@@ -132,6 +133,7 @@
                                                         float: left;
                                                         margin: 0px 1em 1em 0px;
                                                     "
+                                                    alt="zalo icon"
                                             /></span>
                                         </p>
                                         <p>
@@ -164,6 +166,7 @@
                                                         float: left;
                                                         margin: 0px 1em 1em 0px;
                                                     "
+                                                    alt="zalo icon"
                                             /></span>
                                         </p>
                                         <p>

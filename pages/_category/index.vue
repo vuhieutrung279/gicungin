@@ -7,18 +7,21 @@
                         <img
                             class="w-100"
                             src="~/assets/images/banner-slide-1.jpg"
+                            alt="kho thư viện banner"
                         />
                     </div>
                     <div>
                         <img
                             class="w-100"
                             src="~/assets/images/banner-slide-2.jpg"
+                            alt="sticker banner"
                         />
                     </div>
                     <div>
                         <img
                             class="w-100"
                             src="~/assets/images/banner-slide-3.jpg"
+                            alt="thiết kế free banner"
                         />
                     </div>
                 </VueSlickCarousel>
