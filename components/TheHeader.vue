@@ -195,7 +195,7 @@ export default {
     }
     .mobile-menu {
         background-color: #ff6600;
-        position: absolute;
+        position: fixed;
         inset: 0;
         overflow-y: auto;
         z-index: 1000;
