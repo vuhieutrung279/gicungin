@@ -25,8 +25,9 @@ export default {
             },
             {
                 name: 'keywords',
-                content: 'gì cũng in, in tem nhãn, in nhãn mác, in tem decal, in tem bảo hành, in sticker, in áo thun, in danh thiếp, in túi giấy, in nhanh, in standee, in catologue, in tại tân bình, in tại Tp HCM.',
-            }
+                content:
+                    'gì cũng in, in tem nhãn, in nhãn mác, in tem decal, in tem bảo hành, in sticker, in áo thun, in danh thiếp, in túi giấy, in nhanh, in standee, in catologue, in tại tân bình, in tại Tp HCM.',
+            },
         ],
         link: [
             {
@@ -64,6 +65,7 @@ export default {
     buildModules: [
         // https://go.nuxtjs.dev/eslint
         '@nuxtjs/eslint-module',
+        '@nuxtjs/google-analytics',
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
@@ -72,6 +74,14 @@ export default {
         /* module options */
         UserAgent: '*',
         Allow: '/',
+    },
+    googleAnalytics: {
+        id: 'G-9DTVYNTE5G',
+    },
+    publicRuntimeConfig: {
+        googleAnalytics: {
+            id: 'G-9DTVYNTE5G',
+        },
     },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build

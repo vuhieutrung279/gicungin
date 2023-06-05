@@ -27,6 +27,7 @@
     "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-28092743.e9f135f",
     "@nuxtjs/eslint-config": "^11.0.0",
     "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^4.0.0",
