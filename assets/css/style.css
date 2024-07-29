@@ -35,9 +35,9 @@ html,
 body {
     height: 100%;
     font-family: "Multi", sans-serif;
-    -webkit-font-smoothing: antialiased;
+    /* -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
-    overflow-x: hidden;
+    overflow-x: hidden; */
 }
 
 h1,

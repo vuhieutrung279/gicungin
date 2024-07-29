@@ -3,25 +3,11 @@
         <div class="container-fluid">
             <div class="slider-section">
                 <VueSlickCarousel v-bind="settings">
-                    <div>
+                    <div v-for="item in listBanner" :key="item.id">
                         <img
                             class="w-100"
-                            src="~/assets/images/banner-slide-1.jpg"
-                            alt="kho thư viện banner"
-                        />
-                    </div>
-                    <div>
-                        <img
-                            class="w-100"
-                            src="~/assets/images/banner-slide-2.jpg"
-                            alt="sticker banner"
-                        />
-                    </div>
-                    <div>
-                        <img
-                            class="w-100"
-                            src="~/assets/images/banner-slide-3.jpg"
-                            alt="thiết kế free banner"
+                            :src="getImgTag(item.content.rendered)"
+                            :alt="`banner ${item.id}`"
                         />
                     </div>
                 </VueSlickCarousel>
@@ -34,7 +20,7 @@
                 </div>
                 <div class="row">
                     <div
-                        v-for="(item, index) in category.submenu"
+                        v-for="(item, index) in category.subMenu"
                         :key="item + index"
                         class="col-md-3 mb-5"
                     >
@@ -44,7 +30,9 @@
                                     v-if="item.image"
                                     class="mb-3"
                                     :src="
-                                        require(`~/assets/images/category/${item.image}`)
+                                        paramsId === 'blog'
+                                            ? getImgTag(item.image)
+                                            : item.image
                                     "
                                     :alt="item.title + ' image'"
                                     style="width: 100%; height: 100%"
@@ -59,7 +47,11 @@
                                         <NuxtLink
                                             :to="`${paramsId}/${item.url}`"
                                             class="btn btn primary-btn"
-                                            >Chọn mẫu</NuxtLink
+                                            >{{
+                                                paramsId === 'blog'
+                                                    ? 'Xem ngay'
+                                                    : 'Chọn mẫu'
+                                            }}</NuxtLink
                                         >
                                     </div>
                                 </div>
@@ -80,6 +72,7 @@ export default {
     components: {
         VueSlickCarousel,
     },
+    scrollToTop: true,
     data() {
         return {
             settings: {
@@ -95,11 +88,21 @@ export default {
         },
     },
     created() {
-        this.category = this.$store.state.menu.find(
+        this.category = this.$store.menu.find(
             (item) => item.url === this.paramsId
         )
+        this.listBanner = this.$store.allPosts.filter(
+            (item) => item.categories[0] === 46
+        )
     },
-    mounted() {},
+    methods: {
+        getImgTag(str) {
+            if (!str) return ''
+            const imgSrcRegex = /<img\s+[^>]*src="([^"]*)"/i
+            const match = str.match(imgSrcRegex)
+            return match ? match[1] : ''
+        },
+    },
 }
 </script>
 

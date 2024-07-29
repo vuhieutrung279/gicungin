@@ -1,6 +1,6 @@
 <template>
     <section class="product-shop spad page-details">
-        <div class="container">
+        <div v-if="paramsId != 'blog'" class="container">
             <div class="row">
                 <div class="col-lg-9 order-1">
                     <div class="row">
@@ -8,9 +8,7 @@
                             <div class="product-pic-zoom">
                                 <img
                                     class="product-big-img"
-                                    :src="
-                                        require(`~/assets/images/category/${subCategory.image}`)
-                                    "
+                                    :src="subCategory.image"
                                     :alt="`${subCategory.title} image`"
                                 />
                             </div>
@@ -18,7 +16,7 @@
                         <div class="col-lg-7">
                             <div class="product-details">
                                 <div class="pd-title">
-                                    <h3>{{ subCategory.title }}</h3>
+                                    <h3 v-html="subCategory.title"></h3>
                                 </div>
                                 <div
                                     style="border-bottom: solid 1px #e8e8e8"
@@ -375,11 +373,16 @@
                 </div>
             </div>
         </div>
+        <div v-else class="container blog">
+            <h2 v-html="subCategory.title"></h2>
+            <div v-html="subCategory.image"></div>
+        </div>
     </section>
 </template>
 
 <script>
 export default {
+    scrollToTop: true,
     data() {
         return {
             category: [],
@@ -392,10 +395,10 @@ export default {
         },
     },
     created() {
-        this.category = this.$store.state.menu.find(
+        this.category = this.$store.menu.find(
             (item) => item.url === this.paramsId
         )
-        this.subCategory = this.category.submenu.find(
+        this.subCategory = this.category.subMenu.find(
             (item) => item.url === this.$route.params.id
         )
     },
@@ -415,6 +418,14 @@ export default {
     }
     img {
         width: 200px;
+    }
+}
+.product-shop {
+    .blog {
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
     }
 }
 </style>

@@ -3,25 +3,11 @@
         <div class="container-fluid">
             <div class="slider-section">
                 <VueSlickCarousel v-bind="settings">
-                    <div>
+                    <div v-for="item in listBanner" :key="item.id">
                         <img
                             class="w-100"
-                            src="~/assets/images/banner-slide-1.jpg"
-                            alt="kho thư viện banner"
-                        />
-                    </div>
-                    <div>
-                        <img
-                            class="w-100"
-                            src="~/assets/images/banner-slide-2.jpg"
-                            alt="sticker banner"
-                        />
-                    </div>
-                    <div>
-                        <img
-                            class="w-100"
-                            src="~/assets/images/banner-slide-3.jpg"
-                            alt="thiết kế free banner"
+                            :src="getImgTag(item.content.rendered)"
+                            :alt="`banner ${item.id}`"
                         />
                     </div>
                 </VueSlickCarousel>
@@ -40,13 +26,11 @@
                     >
                         <a :href="item.url" class="single-banner">
                             <img
-                                :src="
-                                    require(`~/assets/images/category/${item.image}`)
-                                "
+                                :src="item.image"
                                 :alt="`${item.title} thumb`"
                             />
                             <div class="inner-text">
-                                <h5 class="f-category">{{ item.title }}</h5>
+                                <h5 class="f-category" v-html="item.title"></h5>
                             </div>
                         </a>
                     </div>
@@ -82,45 +66,21 @@
             <div class="promotion mt-5 f-bottom-line">
                 <h3>KHUYẾN MÃI HẤP DẪN</h3>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div
+                        v-for="item in listPromotion"
+                        :key="item.id"
+                        class="col-md-4"
+                    >
                         <div class="card">
                             <img
                                 class="card-img-top rounded"
-                                src="~/assets/images/banner-promo-1.jpg"
+                                :src="getImgTag(item.content.rendered)"
                                 style="
                                     height: 225px;
                                     width: 100;
                                     display: block;
                                 "
-                                alt="sale name card banner"
-                            />
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img
-                                class="card-img-top rounded"
-                                src="~/assets/images/banner-promo-2.jpg"
-                                style="
-                                    height: 225px;
-                                    width: 100%;
-                                    display: block;
-                                "
-                                alt="in ấn theo yêu cầu banner"
-                            />
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img
-                                class="card-img-top rounded"
-                                src="~/assets/images/banner-promo-3.jpg"
-                                style="
-                                    height: 225px;
-                                    width: 100%;
-                                    display: block;
-                                "
-                                alt="decal a3 giá 12k"
+                                :alt="`banner ${item.id}`"
                             />
                         </div>
                     </div>
@@ -145,11 +105,29 @@ export default {
                 dots: false,
                 fade: true,
             },
+            listBanner: [],
+            listPromotion: [],
         }
     },
     computed: {
         listProduct() {
-            return this.$store.state.menu.filter((item) => item.isShowHome)
+            return this.$store.menu.filter((item) => item.image)
+        },
+    },
+    created() {
+        this.listBanner = this.$store.allPosts.filter(
+            (item) => item.categories[0] === 46
+        )
+        this.listPromotion = this.$store.allPosts.filter(
+            (item) => item.categories[0] === 48
+        )
+    },
+    methods: {
+        getImgTag(str) {
+            if (!str) return ''
+            const imgSrcRegex = /<img\s+[^>]*src="([^"]*)"/i
+            const match = str.match(imgSrcRegex)
+            return match ? match[1] : ''
         },
     },
 }

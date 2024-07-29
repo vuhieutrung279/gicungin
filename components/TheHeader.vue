@@ -6,7 +6,10 @@
                     <div class="col-lg-3 d-flex align-items-center">
                         <div class="logo">
                             <a href="/">
-                                <img src="~/assets/images/logo.png" alt="gì cũng in logo" />
+                                <img
+                                    src="~/assets/images/logo.png"
+                                    alt="gì cũng in logo"
+                                />
                             </a>
                             <div class="hamburger-icon" @click="showMenu">
                                 <i class="fa fa-bars" aria-hidden="true"></i>
@@ -17,21 +20,27 @@
                         <div class="icon-menu" @click="showMenu">
                             <i class="fa fa-times" aria-hidden="true"></i>
                         </div>
-                        <div v-for="(item, index) in menu" :key="item + index">
-                            <ul v-if="item.submenu.length">
-                                <li>
-                                    <h5>{{ item.title }}</h5>
-                                </li>
+                        <div
+                            v-for="(item, index) in listMenu"
+                            :key="item + index"
+                        >
+                            <NuxtLink :to="`/${item.url}`">
+                                <h5 v-html="item.title"></h5>
+                            </NuxtLink>
+                            <ul
+                                v-if="
+                                    item.subMenu.length && item.title !== 'Blog'
+                                "
+                            >
                                 <li
-                                    v-for="(sub, i) in item.submenu"
+                                    v-for="(sub, i) in item.subMenu"
                                     :key="sub + i"
                                     class="product-menu-item"
                                 >
-                                    <NuxtLink :to="`/${item.url}/${sub.url}`">{{
-                                        sub.title
-                                    }}</NuxtLink>
+                                    <NuxtLink :to="`/${item.url}/${sub.url}`">
+                                        <span v-html="sub.title"></span>
+                                    </NuxtLink>
                                 </li>
-                                <hr />
                             </ul>
                         </div>
                         <div>
@@ -105,45 +114,50 @@
                             ></a>
                             <div class="dropdown">
                                 <div
-                                    v-for="(item, index) in menu"
+                                    v-for="(item, index) in listMenu"
                                     :key="item + index"
                                 >
-                                    <ul v-if="item.submenu.length">
+                                    <ul v-if="item.title !== 'Blog'">
                                         <li>
-                                            <h5>{{ item.title }}</h5>
+                                            <h5 v-html="item.title"></h5>
                                         </li>
                                         <li
-                                            v-for="(sub, i) in item.submenu"
+                                            v-for="(sub, i) in item.subMenu"
                                             :key="sub + i"
                                             class="product-menu-item"
                                         >
                                             <NuxtLink
                                                 :to="`/${item.url}/${sub.url}`"
-                                                >{{ sub.title }}</NuxtLink
-                                            >
+                                                ><span v-html="sub.title"></span
+                                            ></NuxtLink>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </li>
 
-                        <li v-for="(item, index) in menu" :key="item + index">
-                            <NuxtLink :to="`/${item.url}`">{{
-                                item.title
-                            }}</NuxtLink>
+                        <li
+                            v-for="(item, index) in listMenu"
+                            :key="item + index"
+                        >
+                            <NuxtLink :to="`/${item.url}`">
+                                <span v-html="item.title"></span>
+                            </NuxtLink>
                             <ul
-                                v-if="item.submenu.length"
+                                v-if="
+                                    item.subMenu.length && item.title !== 'Blog'
+                                "
                                 class="dropdown"
                                 style="display: block"
                             >
                                 <li
-                                    v-for="(sub, i) in item.submenu"
+                                    v-for="(sub, i) in item.subMenu"
                                     :key="sub + i"
                                     class="product-menu-item"
                                 >
-                                    <NuxtLink :to="`/${item.url}/${sub.url}`">{{
-                                        sub.title
-                                    }}</NuxtLink>
+                                    <NuxtLink :to="`/${item.url}/${sub.url}`">
+                                        <span v-html="sub.title"></span>
+                                    </NuxtLink>
                                 </li>
                             </ul>
                         </li>
@@ -158,9 +172,14 @@
 export default {
     data() {
         return {
-            menu: this.$store.state.menu,
+            menu: '',
             isShowMenu: false,
         }
+    },
+    computed: {
+        listMenu() {
+            return this.$store.menu
+        },
     },
     watch: {
         '$route.params'(newV, oldV) {

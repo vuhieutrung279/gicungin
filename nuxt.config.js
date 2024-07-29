@@ -1,5 +1,11 @@
 export default {
     // Target: https://go.nuxtjs.dev/config-target
+    router: {
+        scrollBehavior(to, from, savedPosition) {
+            // Customize scrolling behavior here
+            return { x: 0, y: 0 } // This will scroll to the top by default
+        },
+    },
     target: 'static',
 
     // Global page headers: https://go.nuxtjs.dev/config-head
@@ -69,7 +75,7 @@ export default {
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
-    modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
+    modules: ['@nuxtjs/sitemap', '@nuxtjs/robots', '@nuxtjs/axios'],
     robots: {
         /* module options */
         UserAgent: '*',
@@ -82,10 +88,15 @@ export default {
         googleAnalytics: {
             id: 'G-9DTVYNTE5G',
         },
+        axios: {
+            baseURL: 'https://gicungin.com/wp-json/wp/v2/',
+        },
     },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
-    build: {},
+    build: {
+        transpile: [({ isLegacy }) => isLegacy && 'axios'],
+    },
     sitemap: {
         hostname: 'https://gicungin.com', // https://www.yoursite.com
     },
