@@ -1,5 +1,15 @@
 <template>
     <section class="product-shop spad page-details">
+        <client-only>
+            <LightBox
+                v-if="subCategory.image.length > 1"
+                ref="lightbox"
+                :media="media"
+                :show-caption="false"
+                :show-light-box="false"
+                :showThumbs="false"
+            />
+        </client-only>
         <div v-if="paramsId != 'blog'" class="container">
             <div class="row">
                 <div class="col-lg-9 order-1">
@@ -8,9 +18,29 @@
                             <div class="product-pic-zoom">
                                 <img
                                     class="product-big-img"
-                                    :src="subCategory.image"
+                                    :src="subCategory.image[0]"
                                     :alt="`${subCategory.title} image`"
+                                    @click="openGallery(0)"
                                 />
+                            </div>
+                            <div
+                                v-if="subCategory.image.length > 1"
+                                class="row"
+                            >
+                                <div class="list-small-img">
+                                    <img
+                                        v-for="index in subCategory.image
+                                            .length > 3
+                                            ? 3
+                                            : subCategory.image.length"
+                                        :key="index"
+                                        :src="subCategory.image[index]"
+                                        :alt="`${
+                                            subCategory.title + index
+                                        } image`"
+                                        @click="openGallery(index)"
+                                    />
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -24,48 +54,56 @@
                                 >
                                     <p>Giá rẻ, số lượng in, sản xuất nhanh</p>
                                 </div>
-                                <div class="pd-title">
-                                    <h5 style="color: #ff6600">
-                                        ĐẶC ĐIÊM CƠ BẢN
-                                    </h5>
-                                </div>
                                 <div
-                                    style="border-bottom: solid 1px #e8e8e8"
-                                    class="mb-2 pb-1"
-                                >
-                                    <p>- Màu sắc: 4 màu cơ bản CMYK</p>
-                                    <p>
-                                        - Số mặt in: 1 mặt và mặt còn lại là keo
-                                        dán
-                                    </p>
-                                    <p>
-                                        - Chất liêu in: Decal Nhựa Sữa mặt mờ
-                                        SY19DL
-                                    </p>
-                                    <p>- Kỹ thuật in: In KTS</p>
-                                    <p>- Máy in Lazer Konica.</p>
-                                    <p>
-                                        - Gia công: Cắt bế demi theo yêu cầu chỉ
-                                        cần lột ra và dán.
-                                    </p>
-                                </div>
-                                <div class="pd-title">
-                                    <h5 style="color: #ff6600">
-                                        QUY TRÌNH ĐẶT HÀNG
-                                    </h5>
-                                </div>
-                                <div
-                                    style="border-bottom: solid 1px #e8e8e8"
-                                    class="mb-2 pb-1"
-                                >
-                                    <p>- Chọn mẫu</p>
-                                    <p>
-                                        - Kết nối nhân viên qua: Zalo, Facebook
-                                    </p>
-                                    <p>- Chốt mẫu in và số lượng</p>
-                                    <p>- Đặt cọc 50%</p>
-                                    <p>- Tiến hành in ấn</p>
-                                    <p>- Giao hàng</p>
+                                    v-if="subCategory.content"
+                                    v-html="subCategory.content"
+                                    class="product-blockquote"
+                                ></div>
+                                <div v-else>
+                                    <div class="pd-title">
+                                        <h5 style="color: #ff6600">
+                                            ĐẶC ĐIÊM CƠ BẢN
+                                        </h5>
+                                    </div>
+                                    <div
+                                        style="border-bottom: solid 1px #e8e8e8"
+                                        class="mb-2 pb-1"
+                                    >
+                                        <p>- Màu sắc: 4 màu cơ bản CMYK</p>
+                                        <p>
+                                            - Số mặt in: 1 mặt và mặt còn lại là
+                                            keo dán
+                                        </p>
+                                        <p>
+                                            - Chất liêu in: Decal Nhựa Sữa mặt
+                                            mờ SY19DL
+                                        </p>
+                                        <p>- Kỹ thuật in: In KTS</p>
+                                        <p>- Máy in Lazer Konica.</p>
+                                        <p>
+                                            - Gia công: Cắt bế demi theo yêu cầu
+                                            chỉ cần lột ra và dán.
+                                        </p>
+                                    </div>
+                                    <div class="pd-title">
+                                        <h5 style="color: #ff6600">
+                                            QUY TRÌNH ĐẶT HÀNG
+                                        </h5>
+                                    </div>
+                                    <div
+                                        style="border-bottom: solid 1px #e8e8e8"
+                                        class="mb-2 pb-1"
+                                    >
+                                        <p>- Chọn mẫu</p>
+                                        <p>
+                                            - Kết nối nhân viên qua: Zalo,
+                                            Facebook
+                                        </p>
+                                        <p>- Chốt mẫu in và số lượng</p>
+                                        <p>- Đặt cọc 50%</p>
+                                        <p>- Tiến hành in ấn</p>
+                                        <p>- Giao hàng</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="container-fluid"></div>
@@ -197,7 +235,7 @@
                                                     font-size: 14px;
                                                     color: rgb(230, 0, 0);
                                                 "
-                                                >Sáng: 7g30 - 11g30</span
+                                                >Sáng: 8h30 - 12h00</span
                                             >
                                         </p>
                                         <p>
@@ -206,7 +244,7 @@
                                                     font-size: 14px;
                                                     color: rgb(230, 0, 0);
                                                 "
-                                                >Chiều: 13g00 - 17g00</span
+                                                >Chiều: 13h00 - 18h00</span
                                             >
                                         </p>
                                         <p>
@@ -381,12 +419,18 @@
 </template>
 
 <script>
+import LightBox from 'vue-image-lightbox'
+import 'vue-image-lightbox/dist/vue-image-lightbox.min.css'
 export default {
+    components: {
+        LightBox,
+    },
     scrollToTop: true,
     data() {
         return {
             category: [],
             subCategory: {},
+            media: [],
         }
     },
     computed: {
@@ -401,12 +445,44 @@ export default {
         this.subCategory = this.category.subMenu.find(
             (item) => item.url === this.$route.params.id
         )
+        this.media = this.subCategory.image.map((item) => {
+            return {
+                srcset: item,
+                caption: item,
+            }
+        })
+        // this.media = [
+        //     {
+        //         // For video
+        //         thumb: 'https://s3-us-west-1.amazonaws.com/powr/defaults/image-slider2.jpg',
+        //         sources: [
+        //             {
+        //                 src: 'https://www.w3schools.com/html/mov_bbb.mp4',
+        //                 type: 'video/mp4',
+        //             },
+        //         ],
+        //         type: 'video',
+        //         caption: '<h4>Monsters Inc.</h4>',
+        //         width: 800, // required
+        //         height: 600, // required
+        //         autoplay: true,
+        //     },
+        //     {
+        //         thumb: 'http://example.com/thumb.jpg',
+        //         src: 'http://example.com/image.jpg',
+        //         caption: 'caption to display. receive <html> <b>tag</b>', // Optional
+        //     },
+        // ]
     },
-    mounted() {},
+    methods: {
+        openGallery(index) {
+            this.$refs.lightbox.showImage(index)
+        },
+    },
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .list-qr {
     display: flex;
     align-items: center;
@@ -427,5 +503,21 @@ export default {
             margin-bottom: 20px;
         }
     }
+}
+.product-details {
+    .product-blockquote {
+        .wp-block-heading {
+            color: #ff6600;
+            &:nth-of-type(2) {
+                border-top: solid 1px #e8e8e8;
+                padding: 12px 0;
+            }
+        }
+    }
+}
+.list-small-img {
+    display: flex;
+    flex-basis: 30%;
+    gap: 15%;
 }
 </style>

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/fast", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/flyer/page-a4", {data:[{}],fetch:{},mutations:[]});

@@ -16,13 +16,16 @@
         <div class="container">
             <div class="products mt-5">
                 <div class="row text-center">
-                    <h4 class="w-100 text-center mb-2">{{ category.title }}</h4>
+                    <h4
+                        class="w-100 text-center mb-4"
+                        v-html="category.title"
+                    ></h4>
                 </div>
                 <div class="row">
                     <div
                         v-for="(item, index) in category.subMenu"
                         :key="item + index"
-                        class="col-md-3 mb-5"
+                        class="col-6 col-md-3 mb-5"
                     >
                         <div class="p-item">
                             <div class="p-img">
@@ -32,14 +35,14 @@
                                     :src="
                                         paramsId === 'blog'
                                             ? getImgTag(item.image)
-                                            : item.image
+                                            : item.image[0]
                                     "
                                     :alt="item.title + ' image'"
                                     style="width: 100%; height: 100%"
                                 />
                             </div>
                             <div class="inner-text text-center mb-2">
-                                <h5>{{ item.title }}</h5>
+                                <h5 class="px-1" v-html="item.title"></h5>
                             </div>
                             <div class="inner-btn">
                                 <div class="row pl-3 pr-3">

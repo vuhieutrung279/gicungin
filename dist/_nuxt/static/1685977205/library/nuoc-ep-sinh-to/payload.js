@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/library/nuoc-ep-sinh-to", {data:[{}],fetch:{},mutations:[]});

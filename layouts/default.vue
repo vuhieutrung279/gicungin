@@ -45,53 +45,67 @@ export default {
             ],
         }
     },
-    async created() {
-        let currentPage = 2
-        const allPosts = []
-        const postPerPage = await this.$axios.get(
-            'https://gicungin.com/wp-json/wp/v2/posts?_fields=id,categories,content,title,_links,_embedded&_embed=wp:term&order=asc'
-        )
-        allPosts.push(...postPerPage.data)
-
-        const totalPages = postPerPage.headers['x-wp-totalpages']
-
-        while (totalPages >= currentPage) {
-            const postNextPage = await this.$axios.get(
-                `https://gicungin.com/wp-json/wp/v2/posts?page=${currentPage}&_fields=id,categories,content,title,_links,_embedded&_embed=wp:term&order=asc`
+    async mounted() {
+        if (!sessionStorage.allPosts) {
+            let currentPage = 2
+            const allPosts = []
+            const postPerPage = await this.$axios.get(
+                'https://gicungin.com/wp-json/wp/v2/posts?_fields=id,categories,content,title,_links,_embedded&_embed=wp:term&order=asc'
             )
-            allPosts.push(...postNextPage.data)
-            currentPage++
+            allPosts.push(...postPerPage.data)
+
+            const totalPages = postPerPage.headers['x-wp-totalpages']
+
+            while (totalPages >= currentPage) {
+                const postNextPage = await this.$axios.get(
+                    `https://gicungin.com/wp-json/wp/v2/posts?page=${currentPage}&_fields=id,categories,content,title,_links,_embedded&_embed=wp:term&order=asc`
+                )
+                allPosts.push(...postNextPage.data)
+                currentPage++
+            }
+
+            this.$store.allPosts = allPosts
+            sessionStorage.setItem('allPosts', JSON.stringify(allPosts))
+        } else {
+            this.$store.allPosts = JSON.parse(
+                sessionStorage.getItem('allPosts')
+            )
         }
 
-        this.$store.allPosts = allPosts
-
-        const category4Posts = allPosts
-            .filter((post) => post.categories[0] === 4)
-            .map((post) => ({
-                id: post.id,
-                title: post.title.rendered,
-                image: this.getImgTag(post.content.rendered),
-                url: post._embedded['wp:term'][1][0].name,
-            }))
-
-        this.$store.menu = category4Posts.map((post) => {
-            const subMenu = allPosts
-                .filter(
-                    (subPost) =>
-                        subPost._embedded['wp:term'][0][0].name === post.url
-                )
-                .map((subPost) => ({
-                    id: subPost.id,
-                    title: subPost.title.rendered,
-                    image:
-                        subPost._embedded['wp:term'][0][0].name !== 'blog'
-                            ? this.getImgTag(subPost.content.rendered)
-                            : subPost.content.rendered,
-                    url: subPost._embedded['wp:term'][1][0].name,
+        if (!sessionStorage.menu) {
+            const category4Posts = this.$store.allPosts
+                .filter((post) => post.categories[0] === 4)
+                .map((post) => ({
+                    id: post.id,
+                    title: post.title.rendered,
+                    image: this.getImgTag(post.content.rendered),
+                    url: post._embedded['wp:term'][1][0].name,
+                    content: this.getContentTag(post.content.rendered),
                 }))
 
-            return { ...post, subMenu }
-        })
+            this.$store.menu = category4Posts.map((post) => {
+                const subMenu = this.$store.allPosts
+                    .filter(
+                        (subPost) =>
+                            subPost._embedded['wp:term'][0][0].name === post.url
+                    )
+                    .map((subPost) => ({
+                        id: subPost.id,
+                        title: subPost.title.rendered,
+                        image:
+                            subPost._embedded['wp:term'][0][0].name !== 'blog'
+                                ? this.getImgTag(subPost.content.rendered)
+                                : subPost.content.rendered,
+                        url: subPost._embedded['wp:term'][1][0].name,
+                        content: this.getContentTag(subPost.content.rendered),
+                    }))
+
+                return { ...post, subMenu }
+            })
+            sessionStorage.setItem('menu', JSON.stringify(this.$store.menu))
+        } else {
+            this.$store.menu = JSON.parse(sessionStorage.menu)
+        }
 
         this.$nextTick(() => {
             setTimeout(() => {
@@ -102,9 +116,18 @@ export default {
     methods: {
         getImgTag(str) {
             if (!str) return ''
-            const imgSrcRegex = /<img\s+[^>]*src="([^"]*)"/i
-            const match = str.match(imgSrcRegex)
-            return match ? match[1] : ''
+            // const imgSrcRegex = /<img\s+[^>]*src="([^"]*)"/i
+            // const match = str.match(imgSrcRegex)
+            // return match ? match[1] : ''
+            const regex = /<img[^>]+src="([^"]+)"/g
+            const matches = [...str.matchAll(regex)].map((match) => match[1])
+            return matches.length ? matches : []
+        },
+        getContentTag(str) {
+            if (!str) return ''
+            const regex = /<blockquote[^>]*>([\s\S]*?)<\/blockquote>/g
+            const matches = str.match(regex)
+            return matches ? matches[0] : ''
         },
     },
 }

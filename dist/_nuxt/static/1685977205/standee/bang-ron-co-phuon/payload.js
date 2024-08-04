@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/standee/bang-ron-co-phuon", {data:[{}],fetch:{},mutations:[]});

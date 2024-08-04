@@ -1061,7 +1061,7 @@ hr.dashed {
     top: 40px;
     display: inline-flex;
     flex-wrap: wrap;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
     max-width: 95vw;
 }
 
@@ -1193,6 +1193,7 @@ hr.dashed {
 .home-section .banner .single-banner .inner-text h5 {
     color: #545554;
     font-weight: unset;
+    text-align: center;
 }
 
 .shopping-cart .cart-table .cart-pic img {

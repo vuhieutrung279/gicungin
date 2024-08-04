@@ -22,17 +22,17 @@
                     <div
                         v-for="(item, index) in listProduct"
                         :key="item.title + index"
-                        class="col-lg-3"
+                        class="col-6 col-lg-3"
                     >
-                        <a :href="item.url" class="single-banner">
+                        <NuxtLink :to="`/${item.url}`" class="single-banner">
                             <img
-                                :src="item.image"
+                                :src="item.image[0]"
                                 :alt="`${item.title} thumb`"
                             />
                             <div class="inner-text">
                                 <h5 class="f-category" v-html="item.title"></h5>
                             </div>
-                        </a>
+                        </NuxtLink>
                     </div>
                 </div>
             </div>
@@ -76,8 +76,8 @@
                                 class="card-img-top rounded"
                                 :src="getImgTag(item.content.rendered)"
                                 style="
-                                    height: 225px;
-                                    width: 100;
+                                    /* height: 225px; */
+                                    width: 100%;
                                     display: block;
                                 "
                                 :alt="`banner ${item.id}`"

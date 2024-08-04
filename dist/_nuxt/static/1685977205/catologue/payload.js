@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/catologue", {data:[{}],fetch:{},mutations:[]});

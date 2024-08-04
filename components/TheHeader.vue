@@ -27,7 +27,7 @@
                             <NuxtLink :to="`/${item.url}`">
                                 <h5 v-html="item.title"></h5>
                             </NuxtLink>
-                            <ul
+                            <!-- <ul
                                 v-if="
                                     item.subMenu.length && item.title !== 'Blog'
                                 "
@@ -41,7 +41,7 @@
                                         <span v-html="sub.title"></span>
                                     </NuxtLink>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </div>
                         <div>
                             <ul>
@@ -52,7 +52,7 @@
                                 </li>
                                 <li>
                                     <i class="fa fa-calendar"></i>
-                                    Thời gian làm việc: từ T2-T7: 7h30 đến 18h
+                                    Thời gian làm việc: từ T2-T7: 8h30 đến 18h
                                 </li>
                                 <li>
                                     <i class="fa fa-phone"></i>
@@ -80,7 +80,7 @@
                                 <div>
                                     <a href="#">
                                         <i class="fa fa-calendar"></i>
-                                        Thời gian làm việc: từ T2-T7: 7h30 đến
+                                        Thời gian làm việc: từ T2-T7: 8h30 đến
                                         18h
                                     </a>
                                 </div>
@@ -119,9 +119,13 @@
                                 >
                                     <ul v-if="item.title !== 'Blog'">
                                         <li>
-                                            <h5 v-html="item.title"></h5>
+                                            <NuxtLink :to="`/${item.url}`">
+                                                <span
+                                                    v-html="item.title"
+                                                ></span>
+                                            </NuxtLink>
                                         </li>
-                                        <li
+                                        <!-- <li
                                             v-for="(sub, i) in item.subMenu"
                                             :key="sub + i"
                                             class="product-menu-item"
@@ -130,7 +134,7 @@
                                                 :to="`/${item.url}/${sub.url}`"
                                                 ><span v-html="sub.title"></span
                                             ></NuxtLink>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -143,7 +147,7 @@
                             <NuxtLink :to="`/${item.url}`">
                                 <span v-html="item.title"></span>
                             </NuxtLink>
-                            <ul
+                            <!-- <ul
                                 v-if="
                                     item.subMenu.length && item.title !== 'Blog'
                                 "
@@ -159,7 +163,7 @@
                                         <span v-html="sub.title"></span>
                                     </NuxtLink>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                     </ul>
                 </nav>

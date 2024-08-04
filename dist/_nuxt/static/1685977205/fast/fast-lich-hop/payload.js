@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/fast/fast-lich-hop", {data:[{}],fetch:{},mutations:[]});

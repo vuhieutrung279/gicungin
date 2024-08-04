@@ -11,28 +11,52 @@
                 <div class="row mt-3 mb-3">
                     <div class="col-md-12 flex">
                         <div class="parter-logo">
-                            <img src="~/assets/fonts/dhs-logo-xanh-01.svg" alt="dhs logo" />
+                            <img
+                                src="~/assets/fonts/dhs-logo-xanh-01.svg"
+                                alt="dhs logo"
+                            />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/memoryzone-logo2.png" alt="memoryzone logo" />
+                            <img
+                                src="~/assets/images/memoryzone-logo2.png"
+                                alt="memoryzone logo"
+                            />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/logo-adv-271x61-01.png" alt="adv logo" />
+                            <img
+                                src="~/assets/images/logo-adv-271x61-01.png"
+                                alt="adv logo"
+                            />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/logo-sbc.png" alt="sbc logo" />
+                            <img
+                                src="~/assets/images/logo-sbc.png"
+                                alt="sbc logo"
+                            />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/zodiac-logo.jpg" alt="zodiac logo" />
+                            <img
+                                src="~/assets/images/zodiac-logo.jpg"
+                                alt="zodiac logo"
+                            />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/DGG-logo.png" alt="dgg logo" />
+                            <img
+                                src="~/assets/images/DGG-logo.png"
+                                alt="dgg logo"
+                            />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/logo-nhatviet.png" alt="nhatviet logo" />
+                            <img
+                                src="~/assets/images/logo-nhatviet.png"
+                                alt="nhatviet logo"
+                            />
                         </div>
                         <div class="parter-logo">
-                            <img src="~/assets/images/logo-ho-viet-ads.png" alt="ho viet logo" />
+                            <img
+                                src="~/assets/images/logo-ho-viet-ads.png"
+                                alt="ho viet logo"
+                            />
                         </div>
                     </div>
                 </div>
@@ -52,31 +76,52 @@
                 <div class="row mt-3">
                     <div class="col-md-5 flex">
                         <div class="payment-icon">
-                            <img src="~/assets/images/logo.png" alt="gì cũng in logo footer" />
+                            <img
+                                src="~/assets/images/logo.png"
+                                alt="gì cũng in logo footer"
+                            />
                         </div>
                     </div>
 
                     <div class="col-md-7 flex">
                         <div class="payment-icon">
-                            <img src="~/assets/images/thanh-toan-online2.png" alt="credit logo" />
+                            <img
+                                src="~/assets/images/thanh-toan-online2.png"
+                                alt="credit logo"
+                            />
                         </div>
                         <div class="payment-icon">
-                            <img src="~/assets/images/Vietcombank2.png" alt="vietcombank logo" />
+                            <img
+                                src="~/assets/images/Vietcombank2.png"
+                                alt="vietcombank logo"
+                            />
                         </div>
                         <div class="payment-icon">
                             <img src="~/assets/images/ACB.png" alt="acb logo" />
                         </div>
                         <div class="payment-icon">
-                            <img src="~/assets/images/MoMo_Logo.png" alt="momo logo" />
+                            <img
+                                src="~/assets/images/MoMo_Logo.png"
+                                alt="momo logo"
+                            />
                         </div>
                         <div class="payment-icon">
-                            <img src="~/assets/images/zalopay.png" alt="zalopay logo" />
+                            <img
+                                src="~/assets/images/zalopay.png"
+                                alt="zalopay logo"
+                            />
                         </div>
                         <div class="payment-icon">
-                            <img src="~/assets/images/viettelpay2.png" alt="viettelpay logo" />
+                            <img
+                                src="~/assets/images/viettelpay2.png"
+                                alt="viettelpay logo"
+                            />
                         </div>
                         <div class="payment-icon">
-                            <img src="~/assets/images/vnpay.png" alt="vnpay logo" />
+                            <img
+                                src="~/assets/images/vnpay.png"
+                                alt="vnpay logo"
+                            />
                         </div>
                     </div>
                 </div>
@@ -147,7 +192,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <!-- <div class="col-sm-4">
                                 <h5 class="mt-1 ml-4">Góp ý về dịch vụ</h5>
                                 <div class="mt-2">
                                     <div class="w-100 social-media flex">
@@ -175,7 +220,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="mt-3 mb-4">
                             <p>CÔNG TY TNHH MTV GÌ CŨNG IN</p>
@@ -199,8 +244,8 @@
                             <li class="mb-4">
                                 <span class="title">THỜI GIAN HOẠT ĐỘNG</span>
                                 <p>Từ Thứ 2-Thứ 7 (Chủ nhật nghỉ)</p>
-                                <p>Sáng: 7g30-12g30</p>
-                                <p>Chiều: 13g00-18g00</p>
+                                <p>Sáng: 08h30 - 12h00</p>
+                                <p>Chiều: 13h00 - 18h00</p>
                             </li>
                         </ul>
                     </div>

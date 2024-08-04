@@ -183,7 +183,7 @@ ol {
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
-    padding: 12px 30px;
+    padding: 12px;
     color: #ffffff;
     background: #e7ab3c;
     text-transform: uppercase;
@@ -4708,7 +4708,7 @@ hr.dashed {
 
 .video .row .single-banner {
     width: 100% !important;
-    height: 330px !important;
+    /* height: 330px !important; */
 }
 
 .video .row .single-banner iframe {

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/library/do-dung-gia-dinh", {data:[{}],fetch:{},mutations:[]});
