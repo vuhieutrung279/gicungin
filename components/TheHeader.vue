@@ -1,5 +1,5 @@
 <template>
-    <header class="header-section">
+    <header v-if="!$fetchState.pending" class="header-section">
         <div class="container">
             <div class="inner-header">
                 <div class="row">
@@ -158,9 +158,14 @@
 export default {
     data() {
         return {
-            menu: this.$store.state.menu,
+            menu: [],
             isShowMenu: false,
         }
+    },
+    async fetch () {
+        const url = "https://mocki.io/v1/ee8e7330-4dac-45a1-85fe-e8d766e7c74a";
+        const response = await fetch(url);
+        this.menu = (await response.json()).menu;
     },
     watch: {
         '$route.params'(newV, oldV) {

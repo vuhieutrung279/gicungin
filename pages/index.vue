@@ -27,7 +27,7 @@
                 </VueSlickCarousel>
             </div>
         </div>
-        <div class="container">
+        <div v-if="!$fetchState.pending" class="container">
             <hr class="dashed dash-t" />
             <hr class="dashed dash-b dash-bt" />
             <h1 class="d-none">Gì Cũng In</h1>
@@ -145,12 +145,15 @@ export default {
                 dots: false,
                 fade: true,
             },
+            menu: [],
+            listProduct: []
         }
     },
-    computed: {
-        listProduct() {
-            return this.$store.state.menu.filter((item) => item.isShowHome)
-        },
+    async fetch () {
+        const url = "https://mocki.io/v1/ee8e7330-4dac-45a1-85fe-e8d766e7c74a";
+        const response = await fetch(url);
+        this.menu = (await response.json()).menu;
+        this.listProduct = this.menu.filter((item) => item.isShowHome)
     },
 }
 </script>

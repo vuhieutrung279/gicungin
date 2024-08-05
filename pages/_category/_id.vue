@@ -1,5 +1,5 @@
 <template>
-    <section class="product-shop spad page-details">
+    <section v-if="!$fetchState.pending" class="product-shop spad page-details">
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 order-1">
@@ -384,22 +384,25 @@ export default {
         return {
             category: [],
             subCategory: {},
+            menu: []
         }
     },
-    computed: {
-        paramsId() {
-            return this.$route.params.category
-        },
-    },
-    created() {
-        this.category = this.$store.state.menu.find(
+    async fetch () {
+        const url = "https://mocki.io/v1/ee8e7330-4dac-45a1-85fe-e8d766e7c74a";
+        const response = await fetch(url);
+        this.menu = (await response.json()).menu;
+        this.category = this.menu.find(
             (item) => item.url === this.paramsId
         )
         this.subCategory = this.category.submenu.find(
             (item) => item.url === this.$route.params.id
         )
+    }, 
+    computed: {
+        paramsId() {
+            return this.$route.params.category
+        },
     },
-    mounted() {},
 }
 </script>
 
