@@ -223,11 +223,8 @@
                             </div> -->
                         </div>
                         <div class="mt-3 mb-4">
-                            <p>CÔNG TY TNHH MTV GÌ CŨNG IN</p>
-                            <p>
-                                GPKD số 0316890951 do Sở KH và ĐT TP. Hồ Chí
-                                Minh Cấp ngày 03/06/2021
-                            </p>
+                            <p>CÔNG TY TNHH THỊNH PHÁT PRINTER</p>
+                            <p>GPKD số 0318121422</p>
                         </div>
                     </div>
                 </div>
@@ -248,6 +245,64 @@
                                 <p>Chiều: 13h00 - 18h00</p>
                             </li>
                         </ul>
+                        <!-- Button trigger modal -->
+                        <button
+                            type="button"
+                            class="btn btn-primary"
+                            data-toggle="modal"
+                            data-target="#exampleModal"
+                        >
+                            Launch demo modal
+                        </button>
+
+                        <!-- Modal -->
+                        <div
+                            class="modal fade"
+                            id="exampleModal"
+                            tabindex="-1"
+                            role="dialog"
+                            aria-labelledby="exampleModalLabel"
+                            aria-hidden="true"
+                        >
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5
+                                            class="modal-title"
+                                            id="exampleModalLabel"
+                                        >
+                                            Modal title
+                                        </h5>
+                                        <button
+                                            type="button"
+                                            class="close"
+                                            data-dismiss="modal"
+                                            aria-label="Close"
+                                        >
+                                            <span aria-hidden="true"
+                                                >&times;</span
+                                            >
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">...</div>
+                                    <div class="modal-footer">
+                                        <button
+                                            type="button"
+                                            class="btn btn-secondary"
+                                            data-dismiss="modal"
+                                        >
+                                            Close
+                                        </button>
+                                        <button
+                                            type="button"
+                                            class="btn btn-primary"
+                                        >
+                                            Save changes
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-2">
